@@ -29,8 +29,8 @@ All lectures are given online using Zoom this year.
 Over the last several years, deep neural networks advanced many applications including vision, language understanding, speech understanding, robotics and so on. But a major challenge still remains and that is: how to modeling uncertainty. Good models of uncertainty are crucial whenever decision needs to be made or an algorithm needs to decide how and when to acquire new information.
 Uncertainty quantification is related to combining computational models, physical observations, and possibly expert judgment to make inferences about a physical system. Types of uncertainties include:
 -	Experimental uncertainty (measurement errors)
--	Model uncertainty/discrepancy.
--	Input/parameter uncertainty.
+-	Model uncertainty/discrepancy
+-	Input/parameter uncertainty
 -	Prediction uncertainty.
 
 Why uncertainty:
@@ -49,6 +49,7 @@ Why uncertainty:
 
 **Lecture**  
 Reading: Z. Ghahramani, “[Probabilistic machine learning and artificial intelligence](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/Ghahramani.pdf),” Nature, 2015.
+
 [Intro slides](/Lec01/Intro.pdf)
 
 
