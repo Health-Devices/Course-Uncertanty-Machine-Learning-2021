@@ -54,7 +54,7 @@ Why uncertainty:
 
 ---
 ### Topic 1 Probabilistic reasoning
-Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-book/book1.html)
+Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-book/book1.html) \
 [A Comprehensive Tutorial to Learn Data Science with Julia from Scratch](https://www.analyticsvidhya.com/blog/2017/10/comprehensive-tutorial-learn-data-science-julia-from-scratch/)
 
 **Lecture **  
@@ -67,8 +67,8 @@ Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-b
 ### Topic 2 Bayesian Inference for Gaussians, Bayesian linear and logistic regression
 
 Reading:
-Code: [Continuous Data and the Gaussian Distribution](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/notebooks/The-Gaussian-Distribution.ipynb)
-[Bayesian linear regression](https://turing.ml/dev/tutorials/5-linearregression/)
+Code: [Continuous Data and the Gaussian Distribution](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/notebooks/The-Gaussian-Distribution.ipynb) \
+[Bayesian linear regression](https://turing.ml/dev/tutorials/5-linearregression/) \
 [Bayesian logistic regression](https://turing.ml/dev/tutorials/2-logisticregression/)
 
 **Lecture **  
@@ -217,13 +217,13 @@ Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
 
 ### Links
 
-* [This course at Github](https://mbolic2.github.io/Uncertainty_Course/) <br>
-* [Virtual campus at the University of Ottawa](https://idp3.uottawa.ca/idp/login.jsp?actionUrl=%2Fidp%2FAuthn%2FUserPassword)
+* [This course at Github](https://github.com/Health-Devices/Course-Uncertanty-Machine-Learning-2021) <br>
+* [Bright Space at the University of Ottawa](https://idp3.uottawa.ca/idp/login.jsp?actionUrl=%2Fidp%2FAuthn%2FUserPassword)
 #### Relevant courses
 * [Bayesian Learning](https://dev.deep-teaching.org/courses/bayesian-learning) by deep.TEACHING project
 * [Bayesian Machine Learning and Information Processing (5SSD0)](https://biaslab.github.io/teaching/bmlip/) by Prof.dr.ir. Bert de Vries
-*[Advanced Bayesian Learning](https://github.com/mattiasvillani/AdvBayesLearnCourse) by Mattias Villani
-*[Probabilistic Machine Learning (Summer 2020)](https://uni-tuebingen.de/en/180804)
+* [Advanced Bayesian Learning](https://github.com/mattiasvillani/AdvBayesLearnCourse) by Mattias Villani
+* [Probabilistic Machine Learning (Summer 2020)](https://uni-tuebingen.de/en/180804)
 
 #### Books
 * [Model-Based Machine Learning](https://www.mbmlbook.com/) by John Winn
