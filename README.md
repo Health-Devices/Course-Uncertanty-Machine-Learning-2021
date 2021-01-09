@@ -1,10 +1,10 @@
-# Uncertainty Evaluation in Measurements and Machine Learning
+# Uncertainty Evaluation in Engineering Measurements and Machine Learning
 
 ---
 
 Instructor: Miodrag Bolic, University of Ottawa, Ottawa, Canada<br/> www.site.uottawa.ca/~mbolic <br/>
 Time and place:  Monday 8:30 - 11:30, MNO E218 <br/>
-Course code: ELG 7172B (EACJ 5600)
+Course code: ELG 5218 (EACJ 5600)
 <br>
 ### Course information
 
@@ -47,7 +47,8 @@ Why uncertainty:
 ---
 ### Introduction
 
-**Lecture **  
+**Lecture**  
+Reading: Z. Ghahramani, “[Probabilistic machine learning and artificial intelligence](https://www.microsoft.com/en-us/research/wp-content/uploads/2017/03/Ghahramani.pdf),” Nature, 2015.
 [Intro slides](/Lec01/Intro.pdf)
 
 
@@ -57,7 +58,7 @@ Why uncertainty:
 Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-book/book1.html) \
 [A Comprehensive Tutorial to Learn Data Science with Julia from Scratch](https://www.analyticsvidhya.com/blog/2017/10/comprehensive-tutorial-learn-data-science-julia-from-scratch/)
 
-**Lecture **  
+**Lecture**  
 [Prof. Rai's slides Lec1 9 t0 26](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec1_slides_print.pdf) \
 [Prof. Rai's slides Lec2](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec2_slides_print.pdf)
 
@@ -71,7 +72,7 @@ Code: [Continuous Data and the Gaussian Distribution](https://nbviewer.jupyter.o
 [Bayesian linear regression](https://turing.ml/dev/tutorials/5-linearregression/) \
 [Bayesian logistic regression](https://turing.ml/dev/tutorials/2-logisticregression/)
 
-**Lecture **  
+**Lecture**  
 [Prof. Rai's slides Lec3](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec3_slides_print.pdf) \
 [Prof. Rai's slides Lec4](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec4_slides_print.pdf) \
 [Prof. Rai's slides Lec5](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec5_slides_print.pdf) \
@@ -84,7 +85,7 @@ Code: [Continuous Data and the Gaussian Distribution](https://nbviewer.jupyter.o
 Reading: \
 Code: [MCMC PyTorch](deepbayes-2019/seminars/day5/)
 
-**Lecture **  
+**Lecture**  
 
 
 
@@ -111,7 +112,7 @@ Code: [SVI in Pyro](https://pyro.ai/examples/svi_part_i.html)
 
 Reading:
 
-**Lecture 1**  
+**Lecture**  
 [slides]()  
 
 **Exercise problems**  
@@ -121,7 +122,7 @@ Reading:
 ### Topic 4 Bayesian models: hierarchical and mixture models
 Reading: [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations)
 
-**Lecture 1**  
+**Lecture**  
 [slides]()  
 
 **Exercise problems**  
@@ -151,9 +152,6 @@ Reading (ordered by priority): [Bayesian Data Analysis](http://www.stat.columbia
 **Lecture**  
 
 
-
-**Lab Topic 4**  
-
 ---
 
 ### Topic 7 Clustering with uncertainties: probabilistic PCA, VAR, normalizing flows
@@ -161,7 +159,7 @@ Reading: \
 Code: [Vae with MNIST](https://github.com/bayesgroup/deepbayes-2019/tree/master/seminars/day2) | [Normalizing flow](https://github.com/bayesgroup/deepbayes-2019/tree/master/seminars/day3/nf)
 
 
-**Lecture 1**  
+**Lecture**  
 [slides]()  
 
 **Exercise problems**  
@@ -173,7 +171,7 @@ Code: [Vae with MNIST](https://github.com/bayesgroup/deepbayes-2019/tree/master/
 Reading:\
 Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documentation](https://biaslab.github.io/ForneyLab.jl/stable/)
 
-**Lecture 1**  
+**Lecture**  
 [slides]()  
 
 **Exercise problems**  
@@ -184,7 +182,7 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 
 Reading:
 
-**Lecture 1**  
+**Lecture**  
 [slides]()  
 
 **Exercise problems**  
@@ -195,7 +193,7 @@ Reading:
 Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)
 Reading:
 
-**Lecture 1**  
+**Lecture**  
 [slides]()  
 
 **Exercise problems**  
@@ -206,7 +204,7 @@ Reading:
 
 Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
 
-**Lecture 1**  
+**Lecture**  
 [slides]()  
 
 **Exercise problems**  
