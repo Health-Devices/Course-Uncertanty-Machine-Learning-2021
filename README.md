@@ -55,18 +55,18 @@ Reading: Z. Ghahramani, “[Probabilistic machine learning and artificial intell
 
 
 ---
-### Topic 1 Probabilistic reasoning
+### [Topic 1 Probabilistic reasoning](/Lec01)
 Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-book/book1.html) \
 [A Comprehensive Tutorial to Learn Data Science with Julia from Scratch](https://www.analyticsvidhya.com/blog/2017/10/comprehensive-tutorial-learn-data-science-julia-from-scratch/)
 
 **Lecture**  
 [Prof. Rai's slides Lec1 9 t0 26](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec1_slides_print.pdf) \
-[Lec 1 Notebook](Bayesian Modeling in Julia.ipynb)
+[Lec 1 Notebook](/Lec01/Bayesian%20Modeling%20in%20Julia.ipynb)
 
-**Additional Material**
+**Additional Material**\
 [Prof. Rai's slides Lec2](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec2_slides_print.pdf)
 
-**Exercise problems**  
+
 
 ---
 ### Topic 2 Bayesian Inference for Gaussians, Bayesian linear and logistic regression
