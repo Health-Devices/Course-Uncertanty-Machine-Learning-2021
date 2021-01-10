@@ -61,6 +61,9 @@ Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-b
 
 **Lecture**  
 [Prof. Rai's slides Lec1 9 t0 26](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec1_slides_print.pdf) \
+[Lec 1 Notebook](Bayesian Modeling in Julia.ipynb)
+
+**Additional Material**
 [Prof. Rai's slides Lec2](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec2_slides_print.pdf)
 
 **Exercise problems**  
