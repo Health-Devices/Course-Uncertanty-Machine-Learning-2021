@@ -69,7 +69,7 @@ Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-b
 
 
 ---
-### Topic 2 Bayesian Inference for Gaussians, Bayesian linear and logistic regression
+### [Topic 2 Bayesian Inference for Gaussians, Bayesian linear and logistic regression](/Lec02)
 **Lecture**  
 [Lec 2 Notebook](/Lec02/Lec%202%20Linear%20models.ipynb) \
 [Prof. Rai's slides Lec5](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec5_slides_print.pdf) \
