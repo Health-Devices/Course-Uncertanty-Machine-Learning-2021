@@ -70,19 +70,23 @@ Reading: [Appendix D Probability by Kevin Murphy](https://probml.github.io/pml-b
 
 ---
 ### Topic 2 Bayesian Inference for Gaussians, Bayesian linear and logistic regression
-
-Reading:
-Code: [Continuous Data and the Gaussian Distribution](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/notebooks/The-Gaussian-Distribution.ipynb) \
-[Bayesian linear regression](https://turing.ml/dev/tutorials/5-linearregression/) \
-[Bayesian logistic regression](https://turing.ml/dev/tutorials/2-logisticregression/)
-
 **Lecture**  
-[Prof. Rai's slides Lec3](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec3_slides_print.pdf) \
-[Prof. Rai's slides Lec4](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec4_slides_print.pdf) \
+[Lec 2 Notebook](/Lec01/Lec%202%20Linear%20models.ipynb) \
 [Prof. Rai's slides Lec5](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec5_slides_print.pdf) \
 [Prof. Rai's slides Lec6](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec6_slides_print.pdf)
 
-**Exercise problems**  
+**Mandatory Exercise problems**  
+Rehearsal Exercises->Probability Theory Review, Bayesian Machine Learning, Continuous Data and the Gaussian Distribution, Regression from [Exercise: Bayesian Machine Learning and Information Processing](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/exercises/Exercises.ipynb) and [Solutions](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/exercises/Exercises-with-Solutions.ipynb)
+
+**Additional Material**\
+Reading:\
+[Chapters 3.6 and 11 by Kevin Murphy](https://probml.github.io/pml-book/book1.html) \
+[Prof. Rai's slides Lec3](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec3_slides_print.pdf) \
+[Prof. Rai's slides Lec4](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec4_slides_print.pdf) \
+Code: \
+[Continuous Data and the Gaussian Distribution](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/notebooks/The-Gaussian-Distribution.ipynb) \
+[Bayesian linear regression](https://turing.ml/dev/tutorials/5-linearregression/) \
+[Bayesian logistic regression](https://turing.ml/dev/tutorials/2-logisticregression/)
 
 ---
 ### Topic 3.1 Monte Carlo, MCMC
