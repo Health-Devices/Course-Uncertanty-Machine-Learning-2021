@@ -90,19 +90,24 @@ Code: \
 
 ---
 ### Topic 3.1 Monte Carlo, MCMC
-Reading: \
-Code: [MCMC PyTorch](deepbayes-2019/seminars/day5/)
-
 **Lecture**  
-
-
+Prof. Rai's slides [Lec15](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec15_slides_print.pdf), [Lec16](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec16_slides_print.pdf), [Lec17](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec17_slides_print.pdf) \
+[Lec 3 Notebook](/Lec03/Lec3a.ipynb)
+[Bayesian inference with Stochastic Gradient Langevin Dynamics] https://sebastiancallh.github.io/post/langevin/
 
 **Exercise problems**  
+Additional Material
+Reading: 
 
 ---
 
 ### Topic 3.2 -  Variational Inference
+Prof. Rai's slides [Lec13](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf),  [Lec14](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf) \
+Variational Inference: Foundations and Modern Methods by David Blei, Rajesh Ranganath, Shakir Mohamed, [slides 55-81](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf) \
 
+Code: [Turing Variational Inference](https://turing.ml/dev/tutorials/9-variationalinference/)
+
+**Additional Material**
 Reading: [Blei et al JASA](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.2017.1285773#.XraDPXUzaLI) | [Tran's VI Notes](/Material/VBnotesMNT.pdf) \
 Other material: [Natural gradient notes](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/) | [autograd in python](https://github.com/HIPS/autograd) | [ForwardDiff in Julia](https://github.com/JuliaDiff/ForwardDiff.jl) \
 Code: [SVI in Pyro](https://pyro.ai/examples/svi_part_i.html)
