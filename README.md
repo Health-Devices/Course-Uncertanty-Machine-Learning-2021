@@ -89,15 +89,15 @@ Code: \
 [Bayesian logistic regression](https://turing.ml/dev/tutorials/2-logisticregression/)
 
 ---
-### Topic 3.1 Monte Carlo, MCMC
+### [Topic 3.1 Monte Carlo, MCMC](/Lec02)
 **Lecture**  
 Prof. Rai's slides [Lec15](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec15_slides_print.pdf), [Lec16](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec16_slides_print.pdf), [Lec17](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec17_slides_print.pdf) \
-[Lec 3 Notebook](/Lec03/Lec3a.ipynb)
-[Bayesian inference with Stochastic Gradient Langevin Dynamics] https://sebastiancallh.github.io/post/langevin/
+[Lec 3 Notebook](/Lec03/Lec3a.ipynb) \
+[Bayesian inference with Stochastic Gradient Langevin Dynamics](https://sebastiancallh.github.io/post/langevin/)
 
 **Exercise problems**  
 Additional Material
-Reading: 
+
 
 ---
 
@@ -112,11 +112,7 @@ Reading: [Blei et al JASA](https://amstat.tandfonline.com/doi/abs/10.1080/016214
 Other material: [Natural gradient notes](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/) | [autograd in python](https://github.com/HIPS/autograd) | [ForwardDiff in Julia](https://github.com/JuliaDiff/ForwardDiff.jl) \
 Code: [SVI in Pyro](https://pyro.ai/examples/svi_part_i.html)
 
-**Lecture**  
-[slides]()  
-
-
-**Lab Topic 3**  
+**Assignment 1**  
 
 
 ---
