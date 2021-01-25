@@ -104,6 +104,7 @@ Additional Material
 ### Topic 3.2 -  Variational Inference
 Prof. Rai's slides [Lec13](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf),  [Lec14](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf) \
 Variational Inference: Foundations and Modern Methods by David Blei, Rajesh Ranganath, Shakir Mohamed, [slides 55-81](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf) \
+[Tutorials](https://rpubs.com/cakapourani) by  Chantriolnt-Andreas Kapourani
 
 Code: [Turing Variational Inference](https://turing.ml/dev/tutorials/9-variationalinference/)
 
