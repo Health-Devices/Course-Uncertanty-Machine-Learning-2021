@@ -113,7 +113,8 @@ Reading: [Blei et al JASA](https://amstat.tandfonline.com/doi/abs/10.1080/016214
 Other material: [Natural gradient notes](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/) | [autograd in python](https://github.com/HIPS/autograd) | [ForwardDiff in Julia](https://github.com/JuliaDiff/ForwardDiff.jl) \
 Code: [SVI in Pyro](https://pyro.ai/examples/svi_part_i.html)
 
-**Assignment 1**  
+**[Assignment 1](/Assignments/Assignment1.pdf)**  
+
 
 
 ---
