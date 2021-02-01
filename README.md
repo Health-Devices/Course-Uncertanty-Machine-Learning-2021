@@ -120,13 +120,13 @@ Code: [SVI in Pyro](https://pyro.ai/examples/svi_part_i.html)
 ---
 
 ### Topic 3.3 Probabilistic programming
+Slides: [Probabilistic Machine Learning with PyMC3: Statistical Modeling for Engineers by Dr. Thomas Wiecki](/Lec04/Probabilistic_Programming.pptx)
 
-Reading:
+Reading: [Probabilistic programming by Dan MacKinlay](https://danmackinlay.name/notebook/probabilistic_programming.html) \
+Christopher Krapu, Mark Borsuk, "[Probabilistic programming: A review for environmental modellers](http://www.sciencedirect.com/science/article/pii/S1364815218308843)," Environmental Modelling & Software, Volume 114, 2019, Pages 40-48.
+https://doi.org/10.1016/j.envsoft.2019.01.014.
 
-**Lecture**  
-[slides]()  
 
-**Exercise problems**  
 
 ---
 
@@ -134,13 +134,29 @@ Reading:
 Reading: [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations)
 
 **Lecture**  
-[slides]()  
+[Hierarchical models slides by Taylor R. Brown](https://github.com/tbrown122387/stat_6440_slides/blob/master/5/5.pdf) \
+[Mixture Models slides by Russ	Salakhutdinov](http://www.cs.toronto.edu/~rsalakhu/sta4273_2013/notes/Lecture5_2013.pdf)
 
-**Exercise problems**  
+Code: [Turing Mixture Models](https://turing.ml/dev/tutorials/1-gaussianmixturemodel/)
 
 ---
 
-### Topic 5 - Gaussian Processes Regression and Classification
+### Topic 5a - Applying Bayesian inference to engineering problems
+- Signal detection theory
+- Measurement errors and repeated measurements
+- Bayesian neural networks
+
+
+### Topic 5b - Bayesian Model Inference
+
+Reading (ordered by priority): [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf) - Chapter 7
+| [Bayesian predictive methods article](https://link.springer.com/article/10.1007/s11222-016-9649-y) | [LOO-CV and WAIC article](https://link.springer.com/article/10.1007/s11222-016-9696-4) | [Bayesian regularization and Horseshoe](https://onlinelibrary-wiley-com.ezp.sub.su.se/doi/full/10.1002/wics.1463) | [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) - Chapters 5.1-5.4  
+
+**Lecture**  
+
+###
+
+### Topic 6 - Gaussian Processes Regression and Classification
 
 Reading:  [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) - Chapters 1, 2.1-2.5, 3.1-3.4, 3.7, 4.1-4.3. \
 Code: [GP Stheno Python and Julia](https://github.com/wesselb/stheno) | [GPy for Python](https://sheffieldml.github.io/GPy/) | [Gausspr in R](https://rdrr.io/cran/kernlab/man/gausspr.html) | [Gaussianprocesses.jl in Julia](https://github.com/STOR-i/GaussianProcesses.jl) | [GPyTorch - GPs in PyTorch](https://gpytorch.ai/) \
@@ -155,12 +171,6 @@ Other material: [Visualize GP kernels](http://www.it.uu.se/edu/course/homepage/a
 
 ---
 
-### Topic 6 - Bayesian Model Inference
-
-Reading (ordered by priority): [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf) - Chapter 7
-| [Bayesian predictive methods article](https://link.springer.com/article/10.1007/s11222-016-9649-y) | [LOO-CV and WAIC article](https://link.springer.com/article/10.1007/s11222-016-9696-4) | [Bayesian regularization and Horseshoe](https://onlinelibrary-wiley-com.ezp.sub.su.se/doi/full/10.1002/wics.1463) | [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) - Chapters 5.1-5.4  
-
-**Lecture**  
 
 
 ---
