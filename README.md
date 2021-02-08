@@ -102,7 +102,7 @@ Additional Material
 ---
 
 ### Topic 3.2 -  Variational Inference
-Prof. Rai's slides [Lec13](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf),  [Lec14](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf) \
+Prof. Rai's slides [Lec13](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec13_slides_print.pdf),  [Lec14](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf) \
 Variational Inference: Foundations and Modern Methods by David Blei, Rajesh Ranganath, Shakir Mohamed, [slides 55-81](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf) \
 [Tutorials](https://rpubs.com/cakapourani) by  Chantriolnt-Andreas Kapourani
 
@@ -141,20 +141,31 @@ Code: [Turing Mixture Models](https://turing.ml/dev/tutorials/1-gaussianmixturem
 
 ---
 
-### Topic 5a - Applying Bayesian inference to engineering problems
-- Signal detection theory
-- Measurement errors and repeated measurements
-- Bayesian neural networks
+### Topic 5.1 - Bayesian Model Checking and Selection
+[Model checking by Taylor](https://github.com/tbrown122387/stat_6440_slides/blob/master/6/6.pdf)\
+[Evaluating, comparing and expanding models by Taylor]https://github.com/tbrown122387/stat_6440_slides/blob/master/7/7.pdf
 
-
-### Topic 5b - Bayesian Model Inference
-
-Reading (ordered by priority): [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf) - Chapter 7
-| [Bayesian predictive methods article](https://link.springer.com/article/10.1007/s11222-016-9649-y) | [LOO-CV and WAIC article](https://link.springer.com/article/10.1007/s11222-016-9696-4) | [Bayesian regularization and Horseshoe](https://onlinelibrary-wiley-com.ezp.sub.su.se/doi/full/10.1002/wics.1463) | [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) - Chapters 5.1-5.4  
+Reading (ordered by priority): [Bayesian Data Analysis](http://www.stat.columbia.edu/~gelman/book/BDA3.pdf) - Chapters 6 and 7
+| [Bayesian Model Selection, Model Comparison, and Model Averaging article](https://fhollenbach.org/papers/Hollenbach_Montgomery_2019_BayesianModelSelection.pdf)
 
 **Lecture**  
 
-###
+### Topic 5.2 - Expanding traditional models
+#### Expending regression models with measurement errors
+Slides: [Errors and uncertainty in variables by Stefanie Muff](http://www.biometrische-gesellschaft.de/fileadmin/AG_Daten/BayesMethodik/workshops_etc/2016-12_Mainz/Muff2016-slides.pdf) \
+Reading: [Bayesian analysis of measurement errors](https://arxiv.org/pdf/1302.3065.pdf)\
+[Example of measurement error effects](https://stefaniemuff.shinyapps.io/MEC_ChooseL/)
+
+
+#### Expanding neural networks - Bayesian neural networks
+Slides: [Probabilistic Modeling meets Deep Learning by Prof. Rai slides 1-9](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec23_slides_print.pdf)\
+[Stochastic variational inference and Bayesian neural networks by Nadezhda Chirkova](https://indico.cern.ch/event/845380/sessions/323554/attachments/1952856/3250850/bnn_tutorial.pdf)
+
+Reading: [An introduction to Bayesian neural networks](https://engineering.papercup.com/posts/bayesian-neural-nets/)
+[Hands-on Bayesian Neural Networks - a Tutorial for Deep Learning Users](https://arxiv.org/abs/2007.06823)+ [video](https://www.youtube.com/watch?v=T5TPaI5H4q8&t=579s&ab_channel=MohammedBennamoun)
+Code: Turing Julia Bayesian Neural Networks
+
+
 
 ### Topic 6 - Gaussian Processes Regression and Classification
 
@@ -166,14 +177,6 @@ Other material: [Visualize GP kernels](http://www.it.uu.se/edu/course/homepage/a
 **Lecture**  
 [slides]()  
 
-
-
-
----
-
-
-
----
 
 ### Topic 7 Clustering with uncertainties: probabilistic PCA, VAR, normalizing flows
 Reading: \
@@ -211,7 +214,8 @@ Reading:
 ---
 
 ### Topic 10 Integration of physical and machine learning models
-Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)
+Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)\
+[ADCME](https://juliahub.com/docs/ADCME/b8Ld2/0.5.7/)
 Reading:
 
 **Lecture**  
