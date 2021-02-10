@@ -161,11 +161,12 @@ Reading: [Bayesian analysis of measurement errors](https://arxiv.org/pdf/1302.30
 Slides: [Probabilistic Modeling meets Deep Learning by Prof. Rai slides 1-9](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec23_slides_print.pdf)\
 [Stochastic variational inference and Bayesian neural networks by Nadezhda Chirkova](https://indico.cern.ch/event/845380/sessions/323554/attachments/1952856/3250850/bnn_tutorial.pdf)
 
-Reading: [An introduction to Bayesian neural networks](https://engineering.papercup.com/posts/bayesian-neural-nets/)
-[Hands-on Bayesian Neural Networks - a Tutorial for Deep Learning Users](https://arxiv.org/abs/2007.06823)+ [video](https://www.youtube.com/watch?v=T5TPaI5H4q8&t=579s&ab_channel=MohammedBennamoun)
-Code: Turing Julia Bayesian Neural Networks
+Reading: [An introduction to Bayesian neural networks](https://engineering.papercup.com/posts/bayesian-neural-nets/) \
+[Hands-on Bayesian Neural Networks - a Tutorial for Deep Learning Users](https://arxiv.org/abs/2007.06823) and [video](https://www.youtube.com/watch?v=T5TPaI5H4q8&t=579s&ab_channel=MohammedBennamoun)
 
+Code: [Turing Julia Bayesian Neural Networks](https://turing.ml/dev/tutorials/3-bayesnn/)
 
+**[Assignment 2](/Assignments/Assignment2.pdf), [Dataset](/Assignments/TrafficSpeed.csv)**  
 
 ### Topic 6 - Gaussian Processes Regression and Classification
 
@@ -209,7 +210,8 @@ Reading:
 **Lecture**  
 [slides]()  
 
-**Exercise problems**  
+**Code**
+[BayesianDataFusion.jl](http://jaak-s.github.io/BayesianDataFusion.jl/#bayesiandatafusionjl-package)
 
 ---
 
