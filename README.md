@@ -137,7 +137,9 @@ Reading: [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Pr
 [Hierarchical models slides by Taylor R. Brown](https://github.com/tbrown122387/stat_6440_slides/blob/master/5/5.pdf) \
 [Mixture Models slides by Russ	Salakhutdinov](http://www.cs.toronto.edu/~rsalakhu/sta4273_2013/notes/Lecture5_2013.pdf)
 
-Code: [Turing Mixture Models](https://turing.ml/dev/tutorials/1-gaussianmixturemodel/)
+Code: [Turing Mixture Models](https://turing.ml/dev/tutorials/1-gaussianmixturemodel/) \
+[PyMC3: A Primer on Bayesian Methods for Multilevel Modeling](https://docs.pymc.io/notebooks/multilevel_modeling.html#Example:-Radon-contamination-(Gelman-and-Hill-2006))
+
 
 ---
 
@@ -167,17 +169,16 @@ Reading: [An introduction to Bayesian neural networks](https://engineering.paper
 Code: [Turing Julia Bayesian Neural Networks](https://turing.ml/dev/tutorials/3-bayesnn/)
 
 **[Assignment 2](/Assignments/Assignment2.pdf), [Dataset](/Assignments/TrafficSpeed.csv)**  
+**[Midterm Review](/Lec06/MidtermReview.pdf)**
 
 ### Topic 6 - Gaussian Processes Regression and Classification
+**Lecture**  
+Slides by Andreas Lindholm [1](https://uppsala.instructure.com/courses/28106/pages/lecture-7-gaussian-processes-i?module_item_id=64155) and [2](https://uppsala.instructure.com/courses/28106/pages/lecture-8-gaussian-processes-ii?module_item_id=64157)  
 
 Reading:  [Gaussian Processes for Machine Learning](http://www.gaussianprocess.org/gpml/chapters/RW.pdf) - Chapters 1, 2.1-2.5, 3.1-3.4, 3.7, 4.1-4.3. \
-Code: [GP Stheno Python and Julia](https://github.com/wesselb/stheno) | [GPy for Python](https://sheffieldml.github.io/GPy/) | [Gausspr in R](https://rdrr.io/cran/kernlab/man/gausspr.html) | [Gaussianprocesses.jl in Julia](https://github.com/STOR-i/GaussianProcesses.jl) | [GPyTorch - GPs in PyTorch](https://gpytorch.ai/) \
-Other material: [Visualize GP kernels](http://www.it.uu.se/edu/course/homepage/apml/GP/)
-
-
-**Lecture**  
-[slides]()  
-
+Code: [GP Stheno Python and Julia](https://github.com/wesselb/stheno) | [GPy for Python](https://sheffieldml.github.io/GPy/) | [GP summer school - Labs in Python](http://gpss.cc/gpss20/labs) | [GP in Turing Regression](https://luiarthur.github.io/TuringBnpBenchmarks/gp) | [GP in Turing Classification](https://luiarthur.github.io/TuringBnpBenchmarks/gpclassify)
+Other material: [Visualize GP kernels](http://smlbook.org/GP/) \
+[More slides](/Lec06/epsrcws08_rasmussen_lgp_01.pdf)  
 
 ### Topic 7 Clustering with uncertainties: probabilistic PCA, VAR, normalizing flows
 Reading: \
