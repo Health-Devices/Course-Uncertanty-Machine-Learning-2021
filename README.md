@@ -187,10 +187,11 @@ Slides:  [Continuous Latent Variable Models by Russ Salakhutdinov](http://www.cs
 Code: [MultivariateStats](https://multivariatestatsjl.readthedocs.io/en/stable/index.html#), [Turing example of pPCA](https://github.com/TuringLang/TuringExamples/blob/master/probabilisticpca.jl)
 
 Variational autoencoders: \
-Reading: [D. P. Kingma, M. Welling, (2019), “An Introduction to Variational Autoencoders”, Foundations and Trends in Machine Learning](https://arxiv.org/abs/1906.02691) please read chapters 1 and 2 , | [From Autoencoder to Beta-VAE by Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#td-vae) \
+Reading: [An Introduction to Variational Autoencoders by D. P. Kingma](https://arxiv.org/abs/1906.02691) please read chapters 1 and 2 , | [From Autoencoder to Beta-VAE by Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#td-vae) \
 Slides: [Variational autoencoders by Prof.Mitesh Khapra](https://www.cse.iitm.ac.in/~miteshk/CS7015/Slides/Teaching/pdf/Lecture21.pdf) \
-Videos: [Variational autoencoders by Prof.Mitesh Khapra](https://freevideolectures.com/course/4194/nptel-deep-learning-part/30)
+Videos: [Variational autoencoders by Prof.Mitesh Khapra](https://freevideolectures.com/course/4194/nptel-deep-learning-part/30) \
 Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
+
 ---
 
 ### Topic 8 Time series models, forecasting and classification
