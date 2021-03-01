@@ -180,16 +180,17 @@ Code: [GP Stheno Python and Julia](https://github.com/wesselb/stheno) | [GPy for
 Other material: [Visualize GP kernels](http://smlbook.org/GP/) \
 [More slides](/Lec06/epsrcws08_rasmussen_lgp_01.pdf)  
 
-### Topic 7 Clustering with uncertainties: probabilistic PCA, VAR, normalizing flows
-Reading: \
-Code: [Vae with MNIST](https://github.com/bayesgroup/deepbayes-2019/tree/master/seminars/day2) | [Normalizing flow](https://github.com/bayesgroup/deepbayes-2019/tree/master/seminars/day3/nf)
+### Topic 7 Generative models" probabilistic PCA, Variational autoencoders
+Linear latent variable models: \
+Reading: [Chapter 2 from A.M. O’Sullivan's thesis](https://spiral.imperial.ac.uk/bitstream/10044/1/19191/3/OSullivan-AM-2013-PhD-Thesis.pdf)\
+Slides:  [Continuous Latent Variable Models by Russ Salakhutdinov](http://www.cs.utoronto.ca/~rsalakhu/STAD68/notes/Lecture9_2014.pdf)
+Code: [MultivariateStats](https://multivariatestatsjl.readthedocs.io/en/stable/index.html#), [Turing example of pPCA](https://github.com/TuringLang/TuringExamples/blob/master/probabilisticpca.jl)
 
-
-**Lecture**  
-[slides]()  
-
-**Exercise problems**  
-
+Variational autoencoders: \
+Reading: [D. P. Kingma, M. Welling, (2019), “An Introduction to Variational Autoencoders”, Foundations and Trends in Machine Learning](https://arxiv.org/abs/1906.02691) please read chapters 1 and 2 , | [From Autoencoder to Beta-VAE by Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#td-vae) \
+Slides: [Variational autoencoders by Prof.Mitesh Khapra](https://www.cse.iitm.ac.in/~miteshk/CS7015/Slides/Teaching/pdf/Lecture21.pdf) \
+Videos: [Variational autoencoders by Prof.Mitesh Khapra](https://freevideolectures.com/course/4194/nptel-deep-learning-part/30)
+Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
 ---
 
 ### Topic 8 Time series models, forecasting and classification
@@ -208,8 +209,6 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 
 Reading:
 
-**Lecture**  
-[slides]()  
 
 **Code**
 [BayesianDataFusion.jl](http://jaak-s.github.io/BayesianDataFusion.jl/#bayesiandatafusionjl-package)
@@ -221,8 +220,7 @@ Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differen
 [ADCME](https://juliahub.com/docs/ADCME/b8Ld2/0.5.7/)
 Reading:
 
-**Lecture**  
-[slides]()  
+
 
 **Exercise problems**  
 
