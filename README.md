@@ -168,8 +168,12 @@ Reading: [An introduction to Bayesian neural networks](https://engineering.paper
 
 Code: [Turing Julia Bayesian Neural Networks](https://turing.ml/dev/tutorials/3-bayesnn/)
 
+---
+
 **[Assignment 2](/Assignments/Assignment2.pdf), [Dataset](/Assignments/TrafficSpeed.csv)**  
 **[Midterm Review](/Lec06/MidtermReview.pdf)**
+
+---
 
 ### Topic 6 - Gaussian Processes Regression and Classification
 **Lecture**  
@@ -180,24 +184,38 @@ Code: [GP Stheno Python and Julia](https://github.com/wesselb/stheno) | [GPy for
 Other material: [Visualize GP kernels](http://smlbook.org/GP/) \
 [More slides](/Lec06/epsrcws08_rasmussen_lgp_01.pdf)  
 
-### Topic 7 Generative models" probabilistic PCA, Variational autoencoders
+---
+
+### Topic 7 Generative models: probabilistic PCA, Variational autoencoders
 Linear latent variable models: \
 Reading: [Chapter 2 from A.M. O’Sullivan's thesis](https://spiral.imperial.ac.uk/bitstream/10044/1/19191/3/OSullivan-AM-2013-PhD-Thesis.pdf)\
-Slides:  [Continuous Latent Variable Models by Russ Salakhutdinov](http://www.cs.utoronto.ca/~rsalakhu/STAD68/notes/Lecture9_2014.pdf)
+Slides:  [Continuous Latent Variable Models by Russ Salakhutdinov](http://www.cs.utoronto.ca/~rsalakhu/STAD68/notes/Lecture9_2014.pdf) \
 Code: [MultivariateStats](https://multivariatestatsjl.readthedocs.io/en/stable/index.html#), [Turing example of pPCA](https://github.com/TuringLang/TuringExamples/blob/master/probabilisticpca.jl)
 
 Variational autoencoders: \
 Reading: [An Introduction to Variational Autoencoders by D. P. Kingma](https://arxiv.org/abs/1906.02691) please read chapters 1 and 2 , | [From Autoencoder to Beta-VAE by Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#td-vae) \
-Slides: [Variational autoencoders by Prof.Mitesh Khapra](https://www.cse.iitm.ac.in/~miteshk/CS7015/Slides/Teaching/pdf/Lecture21.pdf) \
-Videos: [Variational autoencoders by Prof.Mitesh Khapra](https://freevideolectures.com/course/4194/nptel-deep-learning-part/30) \
+Slides: [Variational autoencoders by Prof.Mitesh Khapra](https://www.cse.iitm.ac.in/~miteshk/CS7015/Slides/Teaching/pdf/Lecture21.pdf) | Video: [Variational autoencoders by Prof.Mitesh Khapra](https://freevideolectures.com/course/4194/nptel-deep-learning-part/30) \
+Slides and videos: [Latent Variable Models, L4 by Pieter Abbeel](https://sites.google.com/view/berkeley-cs294-158-sp20/home)
 Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
 
 ---
+### Topic 8 Sequential latent models
+Slides: [HMM by John Paisley](/Lec08/HMM_Paisley.pdf) \
+[ELEC-E8105 - Non-linear Filtering and Parameter Estimation by Simo Sarkaa](https://mycourses.aalto.fi/course/view.php?id=20984&section=2), Lec 1, 2, 3, and 6 \
+[Particle filters](/Lec08/PFs.ppt)
 
-### Topic 8 Time series models, forecasting and classification
+Reading: [Tutorial paper on latent-variable models for time-series data](http://web4.cs.ucl.ac.uk/staff/d.barber/publications/GMSPM.pdf), Barber and Cemgil, IEEE Signal Processing Magazine, 2010. \
+[Kinematic Models for Target Tracking](https://webee.technion.ac.il/people/shimkin/Estimation09/ch8_target.pdf) | [Markov Models From The Bottom Up, with Python](https://ericmjl.github.io/essays-on-data-science/machine-learning/markov-models/)\
+[Dynamic Models by Dr. de Vries](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/notebooks/Dynamic-Models.ipynb#kalman-proof)
 
-Reading:\
-Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documentation](https://biaslab.github.io/ForneyLab.jl/stable/)
+Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documentation](https://biaslab.github.io/ForneyLab.jl/stable/) \
+[LowLevelParticleFilters](https://github.com/baggepinnen/LowLevelParticleFilters.jl) \
+[Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
+
+---
+### Topic 9 Time series models, forecasting and classification
+
+
 
 **Lecture**  
 [slides]()  
@@ -206,7 +224,7 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 
 ---
 
-### Topic 9 Sensor fusion
+### Topic 10 Sensor fusion
 
 Reading:
 
@@ -216,7 +234,7 @@ Reading:
 
 ---
 
-### Topic 10 Integration of physical and machine learning models
+### Topic 11 Integration of physical and machine learning models
 Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)\
 [ADCME](https://juliahub.com/docs/ADCME/b8Ld2/0.5.7/)
 Reading:
@@ -227,7 +245,7 @@ Reading:
 
 ---
 
-### Topic 11 Sequential decision making
+### Topic 12 Sequential decision making
 
 Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
 
@@ -235,6 +253,9 @@ Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
 [slides]()  
 
 **Exercise problems**  
+
+### Topic 12 Conclusion
+[Learning with non-IID data +other ML assumptions and how to break the - Tegan Maharaj](https://sites.google.com/mila.quebec/ift6135/lectures)
 
 ---
 
