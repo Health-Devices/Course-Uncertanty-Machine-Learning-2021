@@ -213,6 +213,9 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
 
 ---
+**[Assignment 3](/Assignments/Assignment3.ipynb)**
+
+___
 ### Topic 9 Time series models, forecasting and classification
 
 
