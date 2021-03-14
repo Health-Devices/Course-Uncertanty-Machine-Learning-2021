@@ -214,7 +214,7 @@ Reading: [Tutorial paper on latent-variable models for time-series data](http://
 Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documentation](https://biaslab.github.io/ForneyLab.jl/stable/) \
 [LowLevelParticleFilters](https://github.com/baggepinnen/LowLevelParticleFilters.jl) \
 [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)\
-[ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
+
 ---
 **[Assignment 3](/Assignments/Assignment3.ipynb)**
 
@@ -229,7 +229,9 @@ Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Rec
 [Deep Learning Time Series Forecasting](https://github.com/Alro10/deep-learning-time-series)\
 [Deep Latent Variable Models for Sequential Data by M. Fraccaro](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)
 
-Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/)
+Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/) \
+[ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
+
 
 Change-point detection \
 Time series classification \
