@@ -194,6 +194,9 @@ Code: [MultivariateStats](https://multivariatestatsjl.readthedocs.io/en/stable/i
 
 Variational autoencoders: \
 Reading: [An Introduction to Variational Autoencoders by D. P. Kingma](https://arxiv.org/abs/1906.02691) please read chapters 1 and 2 , | [From Autoencoder to Beta-VAE by Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#td-vae) \
+[Probabilistic Models with Deep Neural Networks](https://arxiv.org/pdf/1908.03442.pdf) - includes probabilistic PCA, VAE and their connection.
+
+
 Slides: [Variational autoencoders by Prof.Mitesh Khapra](https://www.cse.iitm.ac.in/~miteshk/CS7015/Slides/Teaching/pdf/Lecture21.pdf) | Video: [Variational autoencoders by Prof.Mitesh Khapra](https://freevideolectures.com/course/4194/nptel-deep-learning-part/30) \
 Slides and videos: [Latent Variable Models, L4 by Pieter Abbeel](https://sites.google.com/view/berkeley-cs294-158-sp20/home)
 Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
@@ -206,22 +209,34 @@ Slides: [HMM by John Paisley](/Lec08/HMM_Paisley.pdf) \
 
 Reading: [Tutorial paper on latent-variable models for time-series data](http://web4.cs.ucl.ac.uk/staff/d.barber/publications/GMSPM.pdf), Barber and Cemgil, IEEE Signal Processing Magazine, 2010. \
 [Kinematic Models for Target Tracking](https://webee.technion.ac.il/people/shimkin/Estimation09/ch8_target.pdf) | [Markov Models From The Bottom Up, with Python](https://ericmjl.github.io/essays-on-data-science/machine-learning/markov-models/)\
-[Dynamic Models by Dr. de Vries](https://nbviewer.jupyter.org/github/bertdv/BMLIP/blob/master/lessons/notebooks/Dynamic-Models.ipynb#kalman-proof)
+[Elements of Sequential Monte Carlo](https://arxiv.org/pdf/1903.04797.pdf)
 
 Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documentation](https://biaslab.github.io/ForneyLab.jl/stable/) \
 [LowLevelParticleFilters](https://github.com/baggepinnen/LowLevelParticleFilters.jl) \
-[Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)
-
+[Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)\
+[ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
 ---
 **[Assignment 3](/Assignments/Assignment3.ipynb)**
 
 ___
 ### Topic 9 Time series models, forecasting and classification
+Slides:
+[DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
+[Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt)
+[Generative modelling with deep latent variable models  by M. Fraccaro](http://summer-school-gan.compute.dtu.dk/slides_marco.pdf) slides 51-91.
 
+Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html), [Video lecture](https://www.youtube.com/watch?v=ZVN14xYm7JA&ab_channel=AlenaKruchkova) \
+[Deep Learning Time Series Forecasting](https://github.com/Alro10/deep-learning-time-series)\
+[Deep Latent Variable Models for Sequential Data by M. Fraccaro](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)
 
+Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/)
 
-**Lecture**  
-[slides]()  
+Change-point detection \
+Time series classification \
+Time series clustering \
+Streaming data: Learning under Concept Drift \
+
+[Course: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
 
 **Exercise problems**  
 
