@@ -222,7 +222,7 @@ ___
 ### Topic 9 Time series models, forecasting and classification
 Slides:
 [DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
-[Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt)
+[Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
 [Generative modelling with deep latent variable models  by M. Fraccaro](http://summer-school-gan.compute.dtu.dk/slides_marco.pdf) slides 51-91.
 
 Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html), [Video lecture](https://www.youtube.com/watch?v=ZVN14xYm7JA&ab_channel=AlenaKruchkova) \
