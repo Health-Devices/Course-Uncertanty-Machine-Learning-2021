@@ -219,7 +219,7 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 **[Assignment 3](/Assignments/Assignment3.ipynb)**
 
 ___
-### Topic 9 Time series models, forecasting and classification
+### Topic 9.1 Time series models, forecasting and classification
 Slides:
 [DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
 [Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
@@ -232,22 +232,30 @@ Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Rec
 Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/) \
 [ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
 
-
-Change-point detection \
-Time series classification \
-Time series clustering \
-Streaming data: Learning under Concept Drift \
-
+### Topic 9.2 Time series models, change point detection
+Time series models\
+Slides and video: [Time Series ARIMA Models by A. Katchova](https://drive.google.com/file/d/1rWe7i-nriLpw9GLa9kzwkfF9qim0cd0G/view) \
 [Course: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
 
-**Exercise problems**  
+Change-point detection \
+Slides: [Introduction to changepoint analysis with R by	R. Killick](https://github.com/rkillick/intro-changepoint-course/blob/master/IntroCptWorkshop.pdf) | [Bayesian Time Series Forecasting with Change Point and Anomaly Detection](https://github.com/mgomtsyan/BayesianTimeSeries) \
+Video: [Introduction to changepoint analysis by	R. Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y&ab_channel=NHSRCommunity)
+Code: [Changepoints.jl](https://github.com/STOR-i/Changepoints.jl) | [Turing code by H. Kjellerstrand](http://hakank.org/julia/turing/) [Python: Bayesian Online Changepoint Detection](http://gregorygundersen.com/blog/2019/08/13/bocd/) \
+
+##### Not covered:
+Time series classification \
+Reading: [The Great Time Series Classification Bake Off](https://arxiv.org/abs/1602.01711) | [Bayesian Anomaly Detection and Classication by E Roberts at al](https://arxiv.org/abs/1902.08627)
+
+Time series clustering \
+Streaming data: Learning under Concept Drift
 
 ---
 
 ### Topic 10 Sensor fusion
+Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) | [Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf) | [Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/)
 
-Reading:
-
+Reading: [A Review of Data Fusion Techniques by F. Castanedo](https://www.hindawi.com/journals/tswj/2013/704504/) \
+[Multimodal Machine Learning: A Survey and Taxonomy by T. Baltrusaitis](https://arxiv.org/abs/1705.09406)
 
 **Code**
 [BayesianDataFusion.jl](http://jaak-s.github.io/BayesianDataFusion.jl/#bayesiandatafusionjl-package)
