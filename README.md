@@ -202,7 +202,7 @@ Slides and videos: [Latent Variable Models, L4 by Pieter Abbeel](https://sites.g
 Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
 
 ---
-### Topic 8 Sequential latent models
+### Topic 8.1 Sequential latent models
 Slides: [HMM by John Paisley](/Lec08/HMM_Paisley.pdf) \
 [ELEC-E8105 - Non-linear Filtering and Parameter Estimation by Simo Sarkaa](https://mycourses.aalto.fi/course/view.php?id=20984&section=2), Lec 1, 2, 3, and 6 \
 [Particle filters](/Lec08/PFs.ppt)
@@ -219,7 +219,7 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 **[Assignment 3](/Assignments/Assignment3.ipynb)**
 
 ___
-### Topic 9.1 Time series models, forecasting and classification
+### Topic 8.2 Deep sequential models
 Slides:
 [DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
 [Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
@@ -229,17 +229,21 @@ Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Rec
 [Deep Learning Time Series Forecasting](https://github.com/Alro10/deep-learning-time-series)\
 [Deep Latent Variable Models for Sequential Data by M. Fraccaro](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)
 
-Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/) \
-[ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
+---
 
-### Topic 9.2 Time series models, change point detection
+### Topic 9 Time series models, change point detection
 Time series models\
 Slides and video: [Time Series ARIMA Models by A. Katchova](https://drive.google.com/file/d/1rWe7i-nriLpw9GLa9kzwkfF9qim0cd0G/view) \
 [Course: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
 
+Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/) \
+[ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
+
+#### Topic 9.1 Change point detection
 Change-point detection \
 Slides: [Introduction to changepoint analysis with R by	R. Killick](https://github.com/rkillick/intro-changepoint-course/blob/master/IntroCptWorkshop.pdf) | [Bayesian Time Series Forecasting with Change Point and Anomaly Detection](https://github.com/mgomtsyan/BayesianTimeSeries) \
 Video: [Introduction to changepoint analysis by	R. Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y&ab_channel=NHSRCommunity)
+
 Code: [Changepoints.jl](https://github.com/STOR-i/Changepoints.jl) | [Turing code by H. Kjellerstrand](http://hakank.org/julia/turing/) [Python: Bayesian Online Changepoint Detection](http://gregorygundersen.com/blog/2019/08/13/bocd/) \
 
 ##### Not covered:
@@ -253,23 +257,24 @@ Streaming data: Learning under Concept Drift
 
 ### Topic 10 Sensor fusion
 Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) | [Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf) | [Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/)
+[SF Course by Prof. Gustafsson](http://sensorfusion.se/sf-course/)
 
 Reading: [A Review of Data Fusion Techniques by F. Castanedo](https://www.hindawi.com/journals/tswj/2013/704504/) \
 [Multimodal Machine Learning: A Survey and Taxonomy by T. Baltrusaitis](https://arxiv.org/abs/1705.09406)
 
-**Code**
-[BayesianDataFusion.jl](http://jaak-s.github.io/BayesianDataFusion.jl/#bayesiandatafusionjl-package)
-
 ---
 
-### Topic 11 Integration of physical and machine learning models
+### [Topic 11 Integration of physical and machine learning models](/Lec11)
+Slides: [Integrating Scientific Theory with Machine Learning](/Lec11/ScientificMachineLearning.pdf)
+
 Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)\
+[Introduction to Scientific Machine Learning through Physics-Informed Neural Networks
+Chris Rackauckas](https://mitmath.github.io/18337/lecture3/sciml.html)\
+[Bayesian Estimation of Differential Equations](https://turing.ml/dev/tutorials/10-bayesiandiffeq/)\
 [ADCME](https://juliahub.com/docs/ADCME/b8Ld2/0.5.7/)
-Reading:
 
+Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](https://www.youtube.com/watch?v=jMhPZFZ0yvE&t=3108s&ab_channel=ChristopherRackauckas)
 
-
-**Exercise problems**  
 
 ---
 
@@ -277,13 +282,10 @@ Reading:
 
 Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
 
-**Lecture**  
-[slides]()  
+---
 
-**Exercise problems**  
-
-### Topic 12 Conclusion
-[Learning with non-IID data +other ML assumptions and how to break the - Tegan Maharaj](https://sites.google.com/mila.quebec/ift6135/lectures)
+### Conclusion
+[Learning with non-IID data +other ML assumptions and how to break them - Tegan Maharaj](https://sites.google.com/mila.quebec/ift6135/lectures)
 
 ---
 
@@ -304,5 +306,4 @@ Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
 
 
 ### Support or Contact
-
 [Miodrag Bolic email ](mailto:mbolic@site.uottawa.ca)
