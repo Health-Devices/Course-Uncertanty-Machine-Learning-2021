@@ -256,8 +256,11 @@ Streaming data: Learning under Concept Drift
 ---
 
 ### Topic 10 Sensor fusion
-Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) | [Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf) | [Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/)
-[SF Course by Prof. Gustafsson](http://sensorfusion.se/sf-course/)
+Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) \
+[Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)  
+[Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/) \
+[SF Course by Prof. Gustafsson](http://sensorfusion.se/sf-course/) \
+[Penn State Stats 505 CCA example](https://online.stat.psu.edu/stat505/lesson/13)
 
 Reading: [A Review of Data Fusion Techniques by F. Castanedo](https://www.hindawi.com/journals/tswj/2013/704504/) \
 [Multimodal Machine Learning: A Survey and Taxonomy by T. Baltrusaitis](https://arxiv.org/abs/1705.09406)
@@ -302,6 +305,10 @@ Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
 * [Probabilistic Machine Learning (Summer 2020)](https://uni-tuebingen.de/en/180804)
 
 #### Books
+* Murphy, Kevin P. 2021. Probabilistic Machine Learning: An Introduction, MIT press.
+* Bayesian Reasoning and Machine Learning by David Barber.
+* Bayesian Methods for Hackers by Cameron Davidson-Pilon.
+* N. D. Goodman, J. B. Tenenbaum, and The ProbMods Contributors (2016). Probabilistic Models of Cognition (2nd ed.)
 * [Model-Based Machine Learning](https://www.mbmlbook.com/) by John Winn
 
 
