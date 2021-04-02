@@ -278,6 +278,8 @@ Chris Rackauckas](https://mitmath.github.io/18337/lecture3/sciml.html)\
 
 Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](https://www.youtube.com/watch?v=jMhPZFZ0yvE&t=3108s&ab_channel=ChristopherRackauckas)
 
+---
+**[Assignment 4](/Assignments/Assignment4.ipynb)**
 
 ---
 
