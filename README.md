@@ -26,7 +26,7 @@ Uncertainty, Uncertainty propagation, Bayesian Inference, Bayesian Filtering, Da
 All lectures are given online using Zoom this year.
 
 **About the course**
-Over the last several years, deep neural networks advanced many applications including vision, language understanding, speech understanding, robotics and so on. But a major challenge still remains and that is: how to modeling uncertainty. Good models of uncertainty are crucial whenever decision needs to be made or an algorithm needs to decide how and when to acquire new information.
+Over the last several years, deep neural networks advanced many applications including vision, language understanding, speech understanding, robotics and so on. But a major challenge still remains and that is: how to model uncertainty. Good models of uncertainty are crucial whenever decisions need to be made or an algorithm needs to decide how and when to acquire new information.
 Uncertainty quantification is related to combining computational models, physical observations, and possibly expert judgment to make inferences about a physical system. Types of uncertainties include:
 -	Experimental uncertainty (measurement errors)
 -	Model uncertainty/discrepancy
@@ -39,10 +39,26 @@ Why uncertainty:
 - Uncertainties relate to the physics of the problem of interest and not to the errors in the mathematical description/solution.
 
 
+### Topics
+PART 1: IID models and Bayesian inference
+- Lec 1:  Introduction to modeling, MLE and MAP, Beta-binomial model 
+- Lec 2: Linear Gaussian model, Bayesian linear regression, Logistic regression
+- Lec 3: Inference: Sampling: Rejection sampling, Importance sampling , Markov chain, MCMC: Metropolis Hastings, Gibbs sampling, Langevin dynamics, Stochastic gradient descent
+- Lec 4: Variational inference, Black box variational inference
+Bayesian models: Mixture models, Hierarchical models
+- Lec 5a: Model checking, model selection, Bayesian averaging, Information criteria
+- Lec 5b: Expending traditional models: Introducing errors in both x and y variables, Bayesian neural networks
 
-
-
-
+PART 2: Generative models, time series, heterogeneous data and decision making
+- Lec 6: Gaussian Processes Regression and Classification
+- Lec 7: Generative models: probabilistic PCA, Variational autoencoders
+- Lec 8a: Sequential latent models: HMM, Kalman and particle filters
+- Lec 8b: Deep sequential models: RNNs, RNN+stte space models
+- Lec 9a: Time series: ARIMA models
+- Lec 9b: Change points detection models
+- Lec 10: Sensor Fusion, Multimodal learning
+- Lec 11: Scientific machine learning
+- Lec 12: Sequential decision making
 
 ---
 ### Introduction
@@ -202,7 +218,7 @@ Slides and videos: [Latent Variable Models, L4 by Pieter Abbeel](https://sites.g
 Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
 
 ---
-### Topic 8.1 Sequential latent models
+### Topic 8a Sequential latent models
 Slides: [HMM by John Paisley](/Lec08/HMM_Paisley.pdf) \
 [ELEC-E8105 - Non-linear Filtering and Parameter Estimation by Simo Sarkaa](https://mycourses.aalto.fi/course/view.php?id=20984&section=2), Lec 1, 2, 3, and 6 \
 [Particle filters](/Lec08/PFs.ppt)
@@ -219,7 +235,7 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 **[Assignment 3](/Assignments/Assignment3.ipynb)**
 
 ___
-### Topic 8.2 Deep sequential models
+### Topic 8b Deep sequential models
 Slides:
 [DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
 [Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
@@ -283,14 +299,17 @@ Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](http
 
 ---
 
-### Topic 12 Sequential decision making
+### [Topic 12a Sequential decision making](/Lec12)
+Slides: [Reinforcement Learning and Multi-arm Bandits by Dr. Ravindran](/Lec12/MDP_Class.pdf)
 
-Reading: [Algorithms for Decision Making](https://algorithmsbook.com/)
+Reading: [Algorithms for Decision Making](https://algorithmsbook.com/) Chapters 15, 16, 17
 
 ---
 
-### Conclusion
-[Learning with non-IID data +other ML assumptions and how to break them - Tegan Maharaj](https://sites.google.com/mila.quebec/ift6135/lectures)
+### [Topic 12b Conclusion](/Lec12)
+Slides: [Review](/Lec12/Review.pptx)
+
+Reading: [Learning with non-IID data +other ML assumptions and how to break them - Tegan Maharaj](https://sites.google.com/mila.quebec/ift6135/lectures)
 
 ---
 
