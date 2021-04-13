@@ -300,9 +300,16 @@ Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](http
 ---
 
 ### [Topic 12a Sequential decision making](/Lec12)
-Slides: [Reinforcement Learning and Multi-arm Bandits by Dr. Ravindran](/Lec12/MDP_Class.pdf)
+Slides: [Reinforcement Learning and Multi-arm Bandits by Dr. Ravindran](/Lec12/MDP_Class.pdf) |
+[Lecture and slides from deepmind](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
 
-Reading: [Algorithms for Decision Making](https://algorithmsbook.com/) Chapters 15, 16, 17
+Videos: [Reinforcement learning course](https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html)
+
+Reading: [Algorithms for Decision Making](https://algorithmsbook.com/) Chapters 15, 16, 17 | [Paper on playing atari games](https://arxiv.org/pdf/1312.5602v1.pdf)
+
+Code: [Deep Q-learning demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html) | 
+[Julia notebook](https://github.com/JuliaPOMDP/POMDPExamples.jl/blob/master/notebooks/GridWorld.ipynb)
+
 
 ---
 
