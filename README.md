@@ -3,7 +3,7 @@
 ---
 
 Instructor: Miodrag Bolic, University of Ottawa, Ottawa, Canada<br/> www.site.uottawa.ca/~mbolic <br/>
-Time and place:  Monday 8:30 - 11:30, MNO E218 <br/>
+Time and place:  Winter 2022, Monday 8:30 - 11:30 <br/>
 Course code: ELG 5218 (EACJ 5600)
 <br>
 ### Course information
@@ -44,8 +44,8 @@ PART 1: IID models and Bayesian inference
 - Lec 1:  Introduction to modeling, MLE and MAP, Beta-binomial model 
 - Lec 2: Linear Gaussian model, Bayesian linear regression, Logistic regression
 - Lec 3: Inference: Sampling: Rejection sampling, Importance sampling , Markov chain, MCMC: Metropolis Hastings, Gibbs sampling, Langevin dynamics, Stochastic gradient descent
-- Lec 4: Variational inference, Black box variational inference
-Bayesian models: Mixture models, Hierarchical models
+- Lec 4a: Variational inference, Black box variational inference
+- Lec 4b: Bayesian models: Mixture models, Hierarchical models
 - Lec 5a: Model checking, model selection, Bayesian averaging, Information criteria
 - Lec 5b: Expending traditional models: Introducing errors in both x and y variables, Bayesian neural networks
 
@@ -307,7 +307,7 @@ Videos: [Reinforcement learning course](https://www.cse.iitm.ac.in/~ravi/courses
 
 Reading: [Algorithms for Decision Making](https://algorithmsbook.com/) Chapters 15, 16, 17 | [Paper on playing atari games](https://arxiv.org/pdf/1312.5602v1.pdf)
 
-Code: [Deep Q-learning demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html) | 
+Code: [Deep Q-learning demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html) |
 [Julia notebook](https://github.com/JuliaPOMDP/POMDPExamples.jl/blob/master/notebooks/GridWorld.ipynb)
 
 
@@ -334,11 +334,17 @@ Reading: [Learning with non-IID data +other ML assumptions and how to break them
 
 #### Books
 * Murphy, Kevin P. 2021. Probabilistic Machine Learning: An Introduction, MIT press.
+* Murphy, Kevin P. 2022, Probabilistic Machine Learning: Advanced Topics.
 * Bayesian Reasoning and Machine Learning by David Barber.
 * Bayesian Methods for Hackers by Cameron Davidson-Pilon.
 * N. D. Goodman, J. B. Tenenbaum, and The ProbMods Contributors (2016). Probabilistic Models of Cognition (2nd ed.)
 * [Model-Based Machine Learning](https://www.mbmlbook.com/) by John Winn
-
+* Variational Methods for Machine Learning with Applications to Deep Networks by L.P. Cinelli et al., 2021.
+* [Physics-based Deep Learning](http://physicsbaseddeeplearning.org) by N. Thuerey et al., Dec 2021.
+* Statistics with Julia: Fundamentals for Data Science, Machine Learning and Artificial Intelligence, by Y. Nazarathy et al., 2021.
+* Bayesian Modeling and Computation in Python by Martin, Osvaldo et al.,2021.
+* An Introduction to Neural Network Methods for Differential Equations by Neha Yadav, Anupam Yadav, 2015.
+* [Probabilistic Machine Learning for Civil Engineers](http://profs.polymtl.ca/jagoulet/Site/Goulet_web_page_BOOK.html) by James-A. Goulet, 2020.
 
 ### Support or Contact
 [Miodrag Bolic email ](mailto:mbolic@site.uottawa.ca)
