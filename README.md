@@ -61,6 +61,8 @@ PART 2: Generative models, time series, heterogeneous data and decision making
 - Lec 12: Sequential decision making
 
 ---
+[Binder](https://mybinder.org/v2/gh/Health-Devices/Course-Uncertanty-Machine-Learning-2021/HEAD)
+
 ### Introduction
 
 **Lecture**  
@@ -117,6 +119,9 @@ C. Andrieu, "[Monte Carlo Methods for Absolute Beginners](https://link.springer.
 Michael Betancourt, "[A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/pdf/1701.02434.pdf)," arXiv:1701.02434v2 [stat.ME] 16 Jul 2018. \
 S. Callh, [Bayesian inference with Stochastic Gradient Langevin Dynamics](https://sebastiancallh.github.io/post/langevin/) \
 
+Videos:\
+[Hamiltonian Monte Carlo](https://www.youtube.com/watch?v=550ZHxodfg0&ab_channel=Applied_Bayesian_Stats), Applied Bayesian Statistics course, 2020.
+
 **Exercise problems**  
 Additional Material
 
@@ -134,8 +139,6 @@ Code: [Turing Variational Inference](https://turing.ml/dev/tutorials/9-variation
 Reading: [Blei et al JASA](https://amstat.tandfonline.com/doi/abs/10.1080/01621459.2017.1285773#.XraDPXUzaLI) | [Tran's VI Notes](/Material/VBnotesMNT.pdf) \
 Other material: [Natural gradient notes](https://wiseodd.github.io/techblog/2018/03/14/natural-gradient/) | [autograd in python](https://github.com/HIPS/autograd) | [ForwardDiff in Julia](https://github.com/JuliaDiff/ForwardDiff.jl) \
 Code: [SVI in Pyro](https://pyro.ai/examples/svi_part_i.html)
-
-**[Assignment 1](/Assignments/Assignment1.pdf)**  
 
 
 
@@ -160,7 +163,11 @@ Reading: [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Pr
 [Mixture Models slides by Russ	Salakhutdinov](http://www.cs.toronto.edu/~rsalakhu/sta4273_2013/notes/Lecture5_2013.pdf)
 
 Code: [Turing Mixture Models](https://turing.ml/dev/tutorials/1-gaussianmixturemodel/) \
-[PyMC3: A Primer on Bayesian Methods for Multilevel Modeling](https://docs.pymc.io/notebooks/multilevel_modeling.html#Example:-Radon-contamination-(Gelman-and-Hill-2006))
+[PyMC3: A Primer on Bayesian Methods for Multilevel Modeling](https://docs.pymc.io/notebooks/multilevel_modeling.html#Example:-Radon-contamination-(Gelman-and-Hill-2006))\
+
+Video:
+[Introduction to Bayesian Multilevel models](https://www.youtube.com/watch?v=oGgJhOOnzZU&ab_channel=Applied_Bayesian_Stats)
+
 
 
 ---
