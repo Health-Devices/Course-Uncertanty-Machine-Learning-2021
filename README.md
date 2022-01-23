@@ -43,9 +43,9 @@ Why uncertainty:
 PART 1: IID models and Bayesian inference
 - Lec 1:  Introduction to modeling, MLE and MAP, Beta-binomial model 
 - Lec 2: Linear Gaussian model, Bayesian linear regression, Logistic regression
-- Lec 3: Inference: Sampling: Rejection sampling, Importance sampling , Markov chain, MCMC: Metropolis Hastings, Gibbs sampling, Langevin dynamics, Stochastic gradient descent
-- Lec 4a: Variational inference, Black box variational inference
-- Lec 4b: Bayesian models: Mixture models, Hierarchical models
+- Lec 3a: Inference: Sampling: Rejection sampling, Importance sampling , Markov chain, MCMC: Metropolis Hastings, Gibbs sampling, Langevin dynamics, Stochastic gradient descent
+- Lec 3b: Variational inference, Black box variational inference
+- Lec 4a: Bayesian models: Mixture models, Hierarchical models
 - Lec 5a: Model checking, model selection, Bayesian averaging, Information criteria
 - Lec 5b: Expending traditional models: Introducing errors in both x and y variables, Bayesian neural networks
 
@@ -105,11 +105,17 @@ Code: \
 [Bayesian logistic regression](https://turing.ml/dev/tutorials/2-logisticregression/)
 
 ---
-### [Topic 3.1 Monte Carlo, MCMC](/Lec02)
+### [Topic 3.1 Monte Carlo, MCMC](/Lec03)
 **Lecture**  
 Prof. Rai's slides [Lec15](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec15_slides_print.pdf), [Lec16](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec16_slides_print.pdf), [Lec17](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec17_slides_print.pdf) \
 [Lec 3 Notebook](/Lec03/Lec3a.ipynb) \
-[Bayesian inference with Stochastic Gradient Langevin Dynamics](https://sebastiancallh.github.io/post/langevin/)
+
+
+**Additional Material**\
+Reading:\
+C. Andrieu, "[Monte Carlo Methods for Absolute Beginners](https://link.springer.com/content/pdf/10.1007/978-3-540-28650-9_6.pdf)," book chapter in Advanced Lectures on Machine Learning. pp. 113-145, 2003.\
+Michael Betancourt, "[A Conceptual Introduction to Hamiltonian Monte Carlo](https://arxiv.org/pdf/1701.02434.pdf)," arXiv:1701.02434v2 [stat.ME] 16 Jul 2018. \
+S. Callh, [Bayesian inference with Stochastic Gradient Langevin Dynamics](https://sebastiancallh.github.io/post/langevin/) \
 
 **Exercise problems**  
 Additional Material
