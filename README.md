@@ -45,7 +45,8 @@ PART 1: IID models and Bayesian inference
 - Lec 2: Linear Gaussian model, Bayesian linear regression, Logistic regression
 - Lec 3a: Inference: Sampling: Rejection sampling, Importance sampling , Markov chain, MCMC: Metropolis Hastings, Gibbs sampling, Langevin dynamics, Stochastic gradient descent
 - Lec 3b: Variational inference, Black box variational inference
-- Lec 4a: Bayesian models: Mixture models, Hierarchical models
+- Lec 4a: Uncertainty propagation and sensitivity analysis
+- Lec 4b: Bayesian models: Mixture models, Hierarchical models
 - Lec 5a: Model checking, model selection, Bayesian averaging, Information criteria
 - Lec 5b: Expending traditional models: Introducing errors in both x and y variables, Bayesian neural networks
 
@@ -151,12 +152,33 @@ Reading: [Probabilistic programming by Dan MacKinlay](https://danmackinlay.name/
 Christopher Krapu, Mark Borsuk, "[Probabilistic programming: A review for environmental modellers](http://www.sciencedirect.com/science/article/pii/S1364815218308843)," Environmental Modelling & Software, Volume 114, 2019, Pages 40-48.
 https://doi.org/10.1016/j.envsoft.2019.01.014.
 
+---
+
+### Topic 4a Uncertainty propagation and sensitivity analysis
+Notebooks:
+- [Lec 4a Uncertainty](/Lec04/Uncertainty.ipynb)
+- [Lec 4a Sensitivity](/Lec04/Sensitivity.ipynb)
+
+**Lecture**  
+- [Lec 4a Uncertainty Slides](/Lec04/Uncertainty.ipynb)
+- [Lec 4a Sensitivity Slides](/Lec04/Uncertainty.ipynb)
+
+Julia Code:
+- [Uncertainty Programming, Generalized Uncertainty Quantification](https://book.sciml.ai/lecture19/uncertainty_programming) by Chris Rackauckas
+- [Global Sensitivity Analysis](https://book.sciml.ai/lecture17/global_sensitivity)  by Chris Rackauckas
+
+Python code:
+- [A practical introduction to sensitivity analysis](https://github.com/lrhgit/uqsa_tutorials/blob/master/sensitivity_introduction.ipynb) by Leif Rune Hellevik\
+- [SALib - Sensitivity Analysis Library in Python](http://salib.readthedocs.io/en/latest/index.html)
+
+Additional reading:
+- V. G. Eck, W. P. Donders, J. Sturdy, J. Feinberg, T. Delhaas, L. R. Hellevik, and W. Huberts. A guide to uncertainty quantification and sensitivity analysis for cardiovascular applications. Int J Numer Method Biomed Eng, 32(8):e02755, 2016.
 
 
 ---
 
-### Topic 4 Bayesian models: hierarchical and mixture models
-Reading: [Prior Choice Recommendations](https://github.com/stan-dev/stan/wiki/Prior-Choice-Recommendations)
+### Topic 4b Bayesian models: hierarchical and mixture models
+[Lec 2 Notebook](/Lec02/Lec%202%20Linear%20models.ipynb) \
 
 **Lecture**  
 [Hierarchical models slides by Taylor R. Brown](https://github.com/tbrown122387/stat_6440_slides/blob/master/5/5.pdf) \
