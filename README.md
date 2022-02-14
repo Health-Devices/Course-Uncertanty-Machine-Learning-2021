@@ -44,22 +44,21 @@ PART 1: IID models and Bayesian inference
 - Lec 1:  Introduction to modeling, MLE and MAP, Beta-binomial model 
 - Lec 2: Linear Gaussian model, Bayesian linear regression, Logistic regression
 - Lec 3a: Inference: Sampling: Rejection sampling, Importance sampling , Markov chain, MCMC: Metropolis Hastings, Gibbs sampling, Langevin dynamics, Stochastic gradient descent
-- Lec 3b: Variational inference, Black box variational inference
-- Lec 4a: Uncertainty propagation and sensitivity analysis
-- Lec 4b: Bayesian models: Mixture models, Hierarchical models
-- Lec 5a: Model checking, model selection, Bayesian averaging, Information criteria
-- Lec 5b: Expending traditional models: Introducing errors in both x and y variables, Bayesian neural networks
+- Lec 4: Variational inference, Black box variational inference
+- Lec 5a: Uncertainty propagation and sensitivity analysis
+- Lec 5b: Bayesian models: Mixture models, Hierarchical models
+- Lec 6a: Model checking, model selection, Bayesian averaging, Information criteria
+- Lec 6b: Expending traditional models: Introducing errors in both x and y variables, Bayesian neural networks
 
 PART 2: Generative models, time series, heterogeneous data and decision making
-- Lec 6: Gaussian Processes Regression and Classification
-- Lec 7: Generative models: probabilistic PCA, Variational autoencoders
-- Lec 8a: Sequential latent models: HMM, Kalman and particle filters
-- Lec 8b: Deep sequential models: RNNs, RNN+stte space models
-- Lec 9a: Time series: ARIMA models
-- Lec 9b: Change points detection models
-- Lec 10: Sensor Fusion, Multimodal learning
-- Lec 11: Scientific machine learning
-- Lec 12: Sequential decision making
+- Lec 8: Gaussian Processes Regression and Classification
+- Lec 9: Generative models: probabilistic PCA, Variational autoencoders
+- Lec 10a: Sequential latent models: HMM, Kalman and particle filters
+- Lec 10b: Deep sequential models: RNNs, RNN+stte space models
+- Lec 11a: Time series: ARIMA models
+- Lec 11b: Change points detection models
+- Lec 12: Scientific machine learning
+- Lec 13: Sequential decision making
 
 ---
 [Binder](https://mybinder.org/v2/gh/Health-Devices/Course-Uncertanty-Machine-Learning-2021/HEAD)
@@ -108,7 +107,7 @@ Code: \
 [Bayesian logistic regression](https://turing.ml/dev/tutorials/2-logisticregression/)
 
 ---
-### [Topic 3.1 Monte Carlo, MCMC](/Lec03)
+### [Topic 3 Monte Carlo, MCMC](/Lec03)
 **Lecture**  
 Prof. Rai's slides [Lec15](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec15_slides_print.pdf), [Lec16](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec16_slides_print.pdf), [Lec17](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec17_slides_print.pdf) \
 [Lec 3 Notebook](/Lec03/Lec3a.ipynb) \
@@ -129,7 +128,7 @@ Additional Material
 
 ---
 
-### Topic 3.2 -  Variational Inference
+### Topic 4 -  Variational Inference
 Prof. Rai's slides [Lec13](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec13_slides_print.pdf),  [Lec14](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec14_slides_print.pdf) \
 Variational Inference: Foundations and Modern Methods by David Blei, Rajesh Ranganath, Shakir Mohamed, [slides 55-81](https://media.nips.cc/Conferences/2016/Slides/6199-Slides.pdf) \
 [Tutorials](https://rpubs.com/cakapourani) by  Chantriolnt-Andreas Kapourani
@@ -145,7 +144,7 @@ Code: [SVI in Pyro](https://pyro.ai/examples/svi_part_i.html)
 
 ---
 
-### Topic 3.3 Probabilistic programming
+### Topic 4.1 Probabilistic programming
 Slides: [Probabilistic Machine Learning with PyMC3: Statistical Modeling for Engineers by Dr. Thomas Wiecki](/Lec04/Probabilistic_Programming.pptx)
 
 Reading: [Probabilistic programming by Dan MacKinlay](https://danmackinlay.name/notebook/probabilistic_programming.html) \
@@ -154,7 +153,7 @@ https://doi.org/10.1016/j.envsoft.2019.01.014.
 
 ---
 
-### Topic 4a Uncertainty propagation and sensitivity analysis
+### Topic 5a [Uncertainty propagation and sensitivity analysis](/Lec05)
 Notebooks:
 - [Lec 4a Uncertainty](/Lec04/Uncertainty.ipynb)
 - [Lec 4a Sensitivity](/Lec04/Sensitivity.ipynb)
@@ -177,7 +176,7 @@ Additional reading:
 
 ---
 
-### Topic 4b Bayesian models: hierarchical and mixture models
+### Topic 5b [Bayesian models: hierarchical and mixture models](/Lec05)
 [Lec 2 Notebook](/Lec02/Lec%202%20Linear%20models.ipynb) \
 
 **Lecture**  
@@ -194,7 +193,7 @@ Video:
 
 ---
 
-### Topic 5.1 - Bayesian Model Checking and Selection
+### Topic 6.1 - Bayesian Model Checking and Selection
 [Model checking by Taylor](https://github.com/tbrown122387/stat_6440_slides/blob/master/6/6.pdf)\
 [Evaluating, comparing and expanding models by Taylor]https://github.com/tbrown122387/stat_6440_slides/blob/master/7/7.pdf
 
@@ -203,14 +202,8 @@ Reading (ordered by priority): [Bayesian Data Analysis](http://www.stat.columbia
 
 **Lecture**  
 
-### Topic 5.2 - Expanding traditional models
-#### Expending regression models with measurement errors
-Slides: [Errors and uncertainty in variables by Stefanie Muff](http://www.biometrische-gesellschaft.de/fileadmin/AG_Daten/BayesMethodik/workshops_etc/2016-12_Mainz/Muff2016-slides.pdf) \
-Reading: [Bayesian analysis of measurement errors](https://arxiv.org/pdf/1302.3065.pdf)\
-[Example of measurement error effects](https://stefaniemuff.shinyapps.io/MEC_ChooseL/)
-
-
-#### Expanding neural networks - Bayesian neural networks
+### Topic 6.2 - Expanding traditional models
+#### [Expanding neural networks - Bayesian neural networks](/Lec03)
 Slides: [Probabilistic Modeling meets Deep Learning by Prof. Rai slides 1-9](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec23_slides_print.pdf)\
 [Stochastic variational inference and Bayesian neural networks by Nadezhda Chirkova](https://indico.cern.ch/event/845380/sessions/323554/attachments/1952856/3250850/bnn_tutorial.pdf)
 
@@ -221,12 +214,9 @@ Code: [Turing Julia Bayesian Neural Networks](https://turing.ml/dev/tutorials/3-
 
 ---
 
-**[Assignment 2](/Assignments/Assignment2.pdf), [Dataset](/Assignments/TrafficSpeed.csv)**  
-**[Midterm Review](/Lec06/MidtermReview.pdf)**
-
 ---
 
-### Topic 6 - Gaussian Processes Regression and Classification
+### Topic 8 - Gaussian Processes Regression and Classification
 **Lecture**  
 Slides by Andreas Lindholm [1](https://uppsala.instructure.com/courses/28106/pages/lecture-7-gaussian-processes-i?module_item_id=64155) and [2](https://uppsala.instructure.com/courses/28106/pages/lecture-8-gaussian-processes-ii?module_item_id=64157)  
 
@@ -237,7 +227,7 @@ Other material: [Visualize GP kernels](http://smlbook.org/GP/) \
 
 ---
 
-### Topic 7 Generative models: probabilistic PCA, Variational autoencoders
+### Topic 9 Generative models: probabilistic PCA, Variational autoencoders
 Linear latent variable models: \
 Reading: [Chapter 2 from A.M. O’Sullivan's thesis](https://spiral.imperial.ac.uk/bitstream/10044/1/19191/3/OSullivan-AM-2013-PhD-Thesis.pdf)\
 Slides:  [Continuous Latent Variable Models by Russ Salakhutdinov](http://www.cs.utoronto.ca/~rsalakhu/STAD68/notes/Lecture9_2014.pdf) \
@@ -253,7 +243,7 @@ Slides and videos: [Latent Variable Models, L4 by Pieter Abbeel](https://sites.g
 Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
 
 ---
-### Topic 8a Sequential latent models
+### Topic 10a Sequential latent models
 Slides: [HMM by John Paisley](/Lec08/HMM_Paisley.pdf) \
 [ELEC-E8105 - Non-linear Filtering and Parameter Estimation by Simo Sarkaa](https://mycourses.aalto.fi/course/view.php?id=20984&section=2), Lec 1, 2, 3, and 6 \
 [Particle filters](/Lec08/PFs.ppt)
@@ -267,10 +257,10 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 [Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)\
 
 ---
-**[Assignment 3](/Assignments/Assignment3.ipynb)**
+
 
 ___
-### Topic 8b Deep sequential models
+### Topic 10b Deep sequential models
 Slides:
 [DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
 [Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
@@ -282,7 +272,7 @@ Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Rec
 
 ---
 
-### Topic 9 Time series models, change point detection
+### Topic 11 Time series models, change point detection
 Time series models\
 Slides and video: [Time Series ARIMA Models by A. Katchova](https://drive.google.com/file/d/1rWe7i-nriLpw9GLa9kzwkfF9qim0cd0G/view) \
 [Course: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
@@ -290,7 +280,7 @@ Slides and video: [Time Series ARIMA Models by A. Katchova](https://drive.google
 Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/) \
 [ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
 
-#### Topic 9.1 Change point detection
+#### Topic 11.1 Change point detection
 Change-point detection \
 Slides: [Introduction to changepoint analysis with R by	R. Killick](https://github.com/rkillick/intro-changepoint-course/blob/master/IntroCptWorkshop.pdf) | [Bayesian Time Series Forecasting with Change Point and Anomaly Detection](https://github.com/mgomtsyan/BayesianTimeSeries) \
 Video: [Introduction to changepoint analysis by	R. Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y&ab_channel=NHSRCommunity)
@@ -306,19 +296,7 @@ Streaming data: Learning under Concept Drift
 
 ---
 
-### Topic 10 Sensor fusion
-Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) \
-[Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)  
-[Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/) \
-[SF Course by Prof. Gustafsson](http://sensorfusion.se/sf-course/) \
-[Penn State Stats 505 CCA example](https://online.stat.psu.edu/stat505/lesson/13)
-
-Reading: [A Review of Data Fusion Techniques by F. Castanedo](https://www.hindawi.com/journals/tswj/2013/704504/) \
-[Multimodal Machine Learning: A Survey and Taxonomy by T. Baltrusaitis](https://arxiv.org/abs/1705.09406)
-
----
-
-### [Topic 11 Integration of physical and machine learning models](/Lec11)
+### [Topic 12 Integration of physical and machine learning models](/Lec12)
 Slides: [Integrating Scientific Theory with Machine Learning](/Lec11/ScientificMachineLearning.pdf)
 
 Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)\
@@ -330,11 +308,11 @@ Chris Rackauckas](https://mitmath.github.io/18337/lecture3/sciml.html)\
 Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](https://www.youtube.com/watch?v=jMhPZFZ0yvE&t=3108s&ab_channel=ChristopherRackauckas)
 
 ---
-**[Assignment 4](/Assignments/Assignment4.ipynb)**
+
 
 ---
 
-### [Topic 12a Sequential decision making](/Lec12)
+### [Topic 13 Sequential decision making](/Lec13)
 Slides: [Reinforcement Learning and Multi-arm Bandits by Dr. Ravindran](/Lec12/MDP_Class.pdf) |
 [Lecture and slides from deepmind](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
 
@@ -348,7 +326,7 @@ Code: [Deep Q-learning demo](https://cs.stanford.edu/people/karpathy/convnetjs/d
 
 ---
 
-### [Topic 12b Conclusion](/Lec12)
+### [Topic 13b Conclusion](/Lec12)
 Slides: [Review](/Lec12/Review.pptx)
 
 Reading: [Learning with non-IID data +other ML assumptions and how to break them - Tegan Maharaj](https://sites.google.com/mila.quebec/ift6135/lectures)
