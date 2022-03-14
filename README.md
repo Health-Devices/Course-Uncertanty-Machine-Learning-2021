@@ -52,11 +52,10 @@ PART 1: IID models and Bayesian inference
 
 PART 2: Generative models, time series, heterogeneous data and decision making
 - Lec 8: Gaussian Processes Regression and Classification
-- Lec 9: Generative models: probabilistic PCA, Variational autoencoders
-- Lec 10a: Sequential latent models: HMM, Kalman and particle filters
-- Lec 10b: Deep sequential models: RNNs, RNN+stte space models
-- Lec 11a: Time series: ARIMA models
-- Lec 11b: Change points detection models
+- Lec 9a: Sequential latent models: HMM, Kalman and particle filters
+- Lec 9b: Deep sequential models: RNNs, RNN+stte space models
+- Lec 10: Generative models: probabilistic PCA, Variational autoencoders
+- Lec 11: Sensor fusion
 - Lec 12: Scientific machine learning
 - Lec 13: Sequential decision making
 
@@ -203,7 +202,7 @@ Reading (ordered by priority): [Bayesian Data Analysis](http://www.stat.columbia
 **Lecture**  
 
 ### Topic 6.2 - Expanding traditional models
-#### [Expanding neural networks - Bayesian neural networks](/Lec03)
+#### [Expanding neural networks - Bayesian neural networks](/Lec06)
 Slides: [Probabilistic Modeling meets Deep Learning by Prof. Rai slides 1-9](https://www.cse.iitk.ac.in/users/piyush/courses/tpmi_winter19/tpmi_w19_lec23_slides_print.pdf)\
 [Stochastic variational inference and Bayesian neural networks by Nadezhda Chirkova](https://indico.cern.ch/event/845380/sessions/323554/attachments/1952856/3250850/bnn_tutorial.pdf)
 
@@ -227,7 +226,36 @@ Other material: [Visualize GP kernels](http://smlbook.org/GP/) \
 
 ---
 
-### Topic 9 Generative models: probabilistic PCA, Variational autoencoders
+### Topic 9a Sequential latent models
+Slides: [HMM by John Paisley](/Lec09/HMM_Paisley.pdf) \
+[ELEC-E8105 - Non-linear Filtering and Parameter Estimation by Simo Sarkaa](https://mycourses.aalto.fi/course/view.php?id=20984&section=2), Lec 1, 2, 3, and 6 \
+[Particle filters](/Lec09/PFs.ppt)
+
+Reading: [Tutorial paper on latent-variable models for time-series data](http://web4.cs.ucl.ac.uk/staff/d.barber/publications/GMSPM.pdf), Barber and Cemgil, IEEE Signal Processing Magazine, 2010. \
+[Kinematic Models for Target Tracking](https://webee.technion.ac.il/people/shimkin/Estimation09/ch8_target.pdf) | [Markov Models From The Bottom Up, with Python](https://ericmjl.github.io/essays-on-data-science/machine-learning/markov-models/)\
+[Elements of Sequential Monte Carlo](https://arxiv.org/pdf/1903.04797.pdf)
+
+Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documentation](https://biaslab.github.io/ForneyLab.jl/stable/) \
+[LowLevelParticleFilters](https://github.com/baggepinnen/LowLevelParticleFilters.jl) \
+[Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)\
+
+---
+
+
+___
+### Topic 9b Deep sequential models
+Slides:
+[DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
+[Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
+[Generative modelling with deep latent variable models  by M. Fraccaro](http://summer-school-gan.compute.dtu.dk/slides_marco.pdf) slides 51-91.
+
+Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html), [Video lecture](https://www.youtube.com/watch?v=ZVN14xYm7JA&ab_channel=AlenaKruchkova) \
+[Deep Learning Time Series Forecasting](https://github.com/Alro10/deep-learning-time-series)\
+[Deep Latent Variable Models for Sequential Data by M. Fraccaro](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)
+
+---
+
+### Topic 10 Generative models: probabilistic PCA, Variational autoencoders
 Linear latent variable models: \
 Reading: [Chapter 2 from A.M. O’Sullivan's thesis](https://spiral.imperial.ac.uk/bitstream/10044/1/19191/3/OSullivan-AM-2013-PhD-Thesis.pdf)\
 Slides:  [Continuous Latent Variable Models by Russ Salakhutdinov](http://www.cs.utoronto.ca/~rsalakhu/STAD68/notes/Lecture9_2014.pdf) \
@@ -242,57 +270,17 @@ Slides: [Variational autoencoders by Prof.Mitesh Khapra](https://www.cse.iitm.ac
 Slides and videos: [Latent Variable Models, L4 by Pieter Abbeel](https://sites.google.com/view/berkeley-cs294-158-sp20/home)
 Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
 
----
-### Topic 10a Sequential latent models
-Slides: [HMM by John Paisley](/Lec08/HMM_Paisley.pdf) \
-[ELEC-E8105 - Non-linear Filtering and Parameter Estimation by Simo Sarkaa](https://mycourses.aalto.fi/course/view.php?id=20984&section=2), Lec 1, 2, 3, and 6 \
-[Particle filters](/Lec08/PFs.ppt)
-
-Reading: [Tutorial paper on latent-variable models for time-series data](http://web4.cs.ucl.ac.uk/staff/d.barber/publications/GMSPM.pdf), Barber and Cemgil, IEEE Signal Processing Magazine, 2010. \
-[Kinematic Models for Target Tracking](https://webee.technion.ac.il/people/shimkin/Estimation09/ch8_target.pdf) | [Markov Models From The Bottom Up, with Python](https://ericmjl.github.io/essays-on-data-science/machine-learning/markov-models/)\
-[Elements of Sequential Monte Carlo](https://arxiv.org/pdf/1903.04797.pdf)
-
-Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documentation](https://biaslab.github.io/ForneyLab.jl/stable/) \
-[LowLevelParticleFilters](https://github.com/baggepinnen/LowLevelParticleFilters.jl) \
-[Kalman and Bayesian Filters in Python](https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python)\
 
 ---
+### Topic 11 Sensor fusion
+Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) \
+[Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)  
+[Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/) \
+[SF Course by Prof. Gustafsson](http://sensorfusion.se/sf-course/) \
+[Penn State Stats 505 CCA example](https://online.stat.psu.edu/stat505/lesson/13)
 
-
-___
-### Topic 10b Deep sequential models
-Slides:
-[DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
-[Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
-[Generative modelling with deep latent variable models  by M. Fraccaro](http://summer-school-gan.compute.dtu.dk/slides_marco.pdf) slides 51-91.
-
-Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Recursive Nets](https://www.deeplearningbook.org/contents/rnn.html), [Video lecture](https://www.youtube.com/watch?v=ZVN14xYm7JA&ab_channel=AlenaKruchkova) \
-[Deep Learning Time Series Forecasting](https://github.com/Alro10/deep-learning-time-series)\
-[Deep Latent Variable Models for Sequential Data by M. Fraccaro](https://backend.orbit.dtu.dk/ws/portalfiles/portal/160548008/phd475_Fraccaro_M.pdf)
-
----
-
-### Topic 11 Time series models, change point detection
-Time series models\
-Slides and video: [Time Series ARIMA Models by A. Katchova](https://drive.google.com/file/d/1rWe7i-nriLpw9GLa9kzwkfF9qim0cd0G/view) \
-[Course: Applied Time Series Analysis](https://online.stat.psu.edu/stat510/)
-
-Code: [Orbit: A Python Package for Bayesian Forecasting](https://github.com/uber/orbit) | [GluonTS - Probabilistic Time Series Modeling](https://ts.gluon.ai/) \
-[ARIMA for Turing](https://github.com/saumyagshah/JupyterNBTuringExamples)
-
-#### Topic 11.1 Change point detection
-Change-point detection \
-Slides: [Introduction to changepoint analysis with R by	R. Killick](https://github.com/rkillick/intro-changepoint-course/blob/master/IntroCptWorkshop.pdf) | [Bayesian Time Series Forecasting with Change Point and Anomaly Detection](https://github.com/mgomtsyan/BayesianTimeSeries) \
-Video: [Introduction to changepoint analysis by	R. Killick](https://www.youtube.com/watch?v=WelmlZK5G2Y&ab_channel=NHSRCommunity)
-
-Code: [Changepoints.jl](https://github.com/STOR-i/Changepoints.jl) | [Turing code by H. Kjellerstrand](http://hakank.org/julia/turing/) [Python: Bayesian Online Changepoint Detection](http://gregorygundersen.com/blog/2019/08/13/bocd/) \
-
-##### Not covered:
-Time series classification \
-Reading: [The Great Time Series Classification Bake Off](https://arxiv.org/abs/1602.01711) | [Bayesian Anomaly Detection and Classication by E Roberts at al](https://arxiv.org/abs/1902.08627)
-
-Time series clustering \
-Streaming data: Learning under Concept Drift
+Reading: [A Review of Data Fusion Techniques by F. Castanedo](https://www.hindawi.com/journals/tswj/2013/704504/) \
+[Multimodal Machine Learning: A Survey and Taxonomy by T. Baltrusaitis](https://arxiv.org/abs/1705.09406)
 
 ---
 
