@@ -332,6 +332,7 @@ Reading: [Learning with non-IID data +other ML assumptions and how to break them
 * [Bayesian Machine Learning and Information Processing (5SSD0)](https://biaslab.github.io/teaching/bmlip/) by Prof.dr.ir. Bert de Vries
 * [Advanced Bayesian Learning](https://github.com/mattiasvillani/AdvBayesLearnCourse) by Mattias Villani
 * [Probabilistic Machine Learning (Summer 2020)](https://uni-tuebingen.de/en/180804)
+* [Neuromatch Academy: Computational Neuroscience](https://compneuro.neuromatch.io/projects/docs/datasets_overview.html)
 
 #### Books
 * Murphy, Kevin P. 2021. Probabilistic Machine Learning: An Introduction, MIT press.
