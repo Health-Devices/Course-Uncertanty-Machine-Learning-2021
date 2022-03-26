@@ -53,11 +53,11 @@ PART 1: IID models and Bayesian inference
 PART 2: Generative models, time series, heterogeneous data and decision making
 - Lec 8: Gaussian Processes Regression and Classification
 - Lec 9a: Sequential latent models: HMM, Kalman and particle filters
-- Lec 9b: Deep sequential models: RNNs, RNN+stte space models
-- Lec 10: Generative models: probabilistic PCA, Variational autoencoders
-- Lec 11: Sensor fusion
+- Lec 9b: Deep sequential models:
+- Lec 10: RNN, Sensor fusion
+- Lec 11: Sequential decision making
 - Lec 12: Scientific machine learning
-- Lec 13: Sequential decision making
+
 
 ---
 [Binder](https://mybinder.org/v2/gh/Health-Devices/Course-Uncertanty-Machine-Learning-2021/HEAD)
@@ -226,7 +226,7 @@ Other material: [Visualize GP kernels](http://smlbook.org/GP/) \
 
 ---
 
-### Topic 9a Sequential latent models
+### Topic 9 Sequential latent models
 Slides: [HMM by John Paisley](/Lec09/HMM_Paisley.pdf) \
 [ELEC-E8105 - Non-linear Filtering and Parameter Estimation by Simo Sarkaa](https://mycourses.aalto.fi/course/view.php?id=20984&section=2), Lec 1, 2, 3, and 6 \
 [Particle filters](/Lec09/PFs.ppt)
@@ -242,8 +242,17 @@ Code: [ForneyLab](https://github.com/biaslab/ForneyLab.jl), [ForneyLab Documenta
 ---
 
 
-___
-### Topic 9b Deep sequential models
+### Topic 10a Sensor fusion
+Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) \
+[Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)  
+[Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/) \
+[SF Course by Prof. Gustafsson](http://sensorfusion.se/sf-course/) \
+[Penn State Stats 505 CCA example](https://online.stat.psu.edu/stat505/lesson/13)
+
+Reading: [A Review of Data Fusion Techniques by F. Castanedo](https://www.hindawi.com/journals/tswj/2013/704504/) \
+[Multimodal Machine Learning: A Survey and Taxonomy by T. Baltrusaitis](https://arxiv.org/abs/1705.09406)
+
+### Topic10b Deep sequential models
 Slides:
 [DEEP SEQUENTIAL LATENT VARIABLE MODELS by J. Marino](https://joelouismarino.github.io/files/lectures/2019/deep_sequential_models.pdf) slides 31-49 \
 [Lecture 6: Recurrent Neural Networks by Ming Li](https://cs.uwaterloo.ca/~mli/Deep-Learning-2017-Lecture6RNN.ppt) \
@@ -255,36 +264,21 @@ Resources: [Deep Learning book, Chapter 10: Sequence Modeling: Recurrent and Rec
 
 ---
 
-### Topic 10 Generative models: probabilistic PCA, Variational autoencoders
-Linear latent variable models: \
-Reading: [Chapter 2 from A.M. O’Sullivan's thesis](https://spiral.imperial.ac.uk/bitstream/10044/1/19191/3/OSullivan-AM-2013-PhD-Thesis.pdf)\
-Slides:  [Continuous Latent Variable Models by Russ Salakhutdinov](http://www.cs.utoronto.ca/~rsalakhu/STAD68/notes/Lecture9_2014.pdf) \
-Code: [MultivariateStats](https://multivariatestatsjl.readthedocs.io/en/stable/index.html#), [Turing example of pPCA](https://github.com/TuringLang/TuringExamples/blob/master/probabilisticpca.jl)
+### [Topic 11 Sequential decision making](/Lec11)
+Slides: [Reinforcement Learning and Multi-arm Bandits by Dr. Ravindran](/Lec11/MDP_Class_22.pdf) |
+[Lecture and slides from deepmind](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
 
-Variational autoencoders: \
-Reading: [An Introduction to Variational Autoencoders by D. P. Kingma](https://arxiv.org/abs/1906.02691) please read chapters 1 and 2 , | [From Autoencoder to Beta-VAE by Lilian Weng](https://lilianweng.github.io/lil-log/2018/08/12/from-autoencoder-to-beta-vae.html#td-vae) \
-[Probabilistic Models with Deep Neural Networks](https://arxiv.org/pdf/1908.03442.pdf) - includes probabilistic PCA, VAE and their connection.
+Videos: [Reinforcement learning course](https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html)
 
+Reading: [Algorithms for Decision Making](https://algorithmsbook.com/) Chapters 15, 16, 17 | [Paper on playing atari games](https://arxiv.org/pdf/1312.5602v1.pdf)
 
-Slides: [Variational autoencoders by Prof.Mitesh Khapra](https://www.cse.iitm.ac.in/~miteshk/CS7015/Slides/Teaching/pdf/Lecture21.pdf) | Video: [Variational autoencoders by Prof.Mitesh Khapra](https://freevideolectures.com/course/4194/nptel-deep-learning-part/30) \
-Slides and videos: [Latent Variable Models, L4 by Pieter Abbeel](https://sites.google.com/view/berkeley-cs294-158-sp20/home)
-Code: [Autoencoders by  Hugh Murrell](https://nextjournal.com/DeepLearningNotes/Ch11Autoencoders?change-id=CWrxF3xs45ozzPvxyPcapr&node-id=63634d84-e1ba-4ec0-8ea0-53549e4be0b3)
+Code: [Julia Academy Decision Making](https://htmlview.glitch.me/?https://github.com/JuliaAcademy/Decision-Making-Under-Uncertainty/blob/master/html/1-MDPs.jl.html) |
+[REINFORCEjs](https://cs.stanford.edu/people/karpathy/reinforcejs/waterworld.html)
 
 
 ---
-### Topic 11 Sensor fusion
-Slides:  [Multisensor Data Fusion : Techno Briefing](https://www.slideshare.net/paveenju/2014-data-fusionpptx) \
-[Introduction to Data Association by B. Collins](http://www.cse.psu.edu/~rtc12/CSE598C/datassocPart1.pdf)  
-[Lec 1 of the course MultiModal Machine Learning by Prof Morency](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/schedule/) \
-[SF Course by Prof. Gustafsson](http://sensorfusion.se/sf-course/) \
-[Penn State Stats 505 CCA example](https://online.stat.psu.edu/stat505/lesson/13)
 
-Reading: [A Review of Data Fusion Techniques by F. Castanedo](https://www.hindawi.com/journals/tswj/2013/704504/) \
-[Multimodal Machine Learning: A Survey and Taxonomy by T. Baltrusaitis](https://arxiv.org/abs/1705.09406)
-
----
-
-### [Topic 12 Integration of physical and machine learning models](/Lec12)
+### [Topic 12a Integration of physical and machine learning models](/Lec12)
 Slides: [Integrating Scientific Theory with Machine Learning](/Lec11/ScientificMachineLearning.pdf)
 
 Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)\
@@ -300,21 +294,7 @@ Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](http
 
 ---
 
-### [Topic 13 Sequential decision making](/Lec13)
-Slides: [Reinforcement Learning and Multi-arm Bandits by Dr. Ravindran](/Lec12/MDP_Class.pdf) |
-[Lecture and slides from deepmind](https://deepmind.com/learning-resources/-introduction-reinforcement-learning-david-silver)
-
-Videos: [Reinforcement learning course](https://www.cse.iitm.ac.in/~ravi/courses/Reinforcement%20Learning.html)
-
-Reading: [Algorithms for Decision Making](https://algorithmsbook.com/) Chapters 15, 16, 17 | [Paper on playing atari games](https://arxiv.org/pdf/1312.5602v1.pdf)
-
-Code: [Deep Q-learning demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/rldemo.html) |
-[Julia notebook](https://github.com/JuliaPOMDP/POMDPExamples.jl/blob/master/notebooks/GridWorld.ipynb)
-
-
----
-
-### [Topic 13b Conclusion](/Lec12)
+### [Topic 12b Conclusion](/Lec12)
 Slides: [Review](/Lec12/Review.pptx)
 
 Reading: [Learning with non-IID data +other ML assumptions and how to break them - Tegan Maharaj](https://sites.google.com/mila.quebec/ift6135/lectures)
