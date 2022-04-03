@@ -282,12 +282,12 @@ Code: [Julia Academy Decision Making](https://htmlview.glitch.me/?https://github
 Slides: [Integrating Scientific Theory with Machine Learning](/Lec11/ScientificMachineLearning.pdf)
 
 Code: [SciMLTutorials.jl: Tutorials for Scientific Machine Learning and Differential Equations](https://github.com/SciML/SciMLTutorials.jl)\
-[Introduction to Scientific Machine Learning through Physics-Informed Neural Networks
-Chris Rackauckas](https://mitmath.github.io/18337/lecture3/sciml.html)\
-[Bayesian Estimation of Differential Equations](https://turing.ml/dev/tutorials/10-bayesiandiffeq/)\
+[Introduction to Scientific Machine Learning through Physics-Informed Neural Networks, Chris Rackauckas](https://book.sciml.ai/notes/03/)\
+[Bayesian Estimation of Differential Equations](https://turing.ml/dev/tutorials/10-bayesian-differential-equations/)\
 [ADCME](https://juliahub.com/docs/ADCME/b8Ld2/0.5.7/)
 
-Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](https://www.youtube.com/watch?v=jMhPZFZ0yvE&t=3108s&ab_channel=ChristopherRackauckas)
+Video: [COVID-19 Epidemic Mitigation via Scientific Machine Learning SciML](https://www.youtube.com/watch?v=jMhPZFZ0yvE&t=3108s&ab_channel=ChristopherRackauckas) \
+[Code: Modeling COVID 19 with Differential Equations](https://julia.quantecon.org/continuous_time/seir_model.html)
 
 ---
 
